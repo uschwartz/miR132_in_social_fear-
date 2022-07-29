@@ -1,0 +1,170 @@
+---
+title: "Clustering Microarray data"
+author: "Uwe Schwartz"
+date: "4 7 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_knit$set(root.dir = "~/Analysis/12_20190626_miRNA_Array/")
+```
+
+#### Load packages
+```{r libraries, message=FALSE}
+library(pheatmap)
+library(stringr)
+library(Biobase)
+library(ggplot2)
+library(Mfuzz)
+```
+
+## load data
+
+```{r load data}
+load("analysis/obj/palmieri_final.rda")
+res.IPscr_IPinh.ext<-read.delim(file="analysis/result/conventional/res.IPscr_IPinh.txt")
+```
+
+## preprocessing and filtering
+Genes were selected based on raw p-values < 0.05
+
+```{r preprocessing}
+#select genes
+idx.genes2cluster<-res.IPscr_IPinh.ext$P.Value<0.05
+
+table(idx.genes2cluster)
+
+
+#get the normalized signal intensities of all arrays
+genes2cluster<-res.IPscr_IPinh.ext[idx.genes2cluster, 
+            grep(".CEL", colnames(res.IPscr_IPinh.ext))]
+
+rownames(genes2cluster)<-res.IPscr_IPinh.ext[idx.genes2cluster, "SYMBOL"]
+```
+
+## heatmap of selected genes
+```{r}
+condition_names <- ifelse(str_detect(pData(palmieri_final)$condition,
+                                     "input"), "input", "IP")
+treatment_names <- ifelse(str_detect(pData(palmieri_final)$treatment,
+                                     "scr"), "scr", "inh")
+
+annotation_for_heatmap <-data.frame(condition = condition_names,  treatment = treatment_names)
+row.names(annotation_for_heatmap) <- row.names(pData(palmieri_final))
+
+anno_colors <- list( condition= c(input = "chartreuse4", IP = "burlywood3"),
+                    treatment= c(inh = "blue4", scr = "cadetblue2"))
+
+
+  pheatmap(genes2cluster, annotation_col = annotation_for_heatmap,
+         annotation_colors = anno_colors, scale = "row", show_rownames = F)
+
+```
+
+
+
+## k-means clustering
+Row-wise z-score were calculated of the selected genes and k-means clustering was applied using 10 clusters
+
+```{r kmeans}
+mat.scaled<-t(apply(genes2cluster,1,scale))
+colnames(mat.scaled)<-colnames(genes2cluster)
+
+lv.samp<-colnames(mat.scaled)
+
+i=10
+
+#run clustering
+k<-kmeans(mat.scaled, i,20)
+  
+#get cluster centers
+    print(pheatmap(k$centers, annotation_col = annotation_for_heatmap,
+                 cluster_cols=T, annotation_colors =anno_colors ))
+  
+  clust.centers<-data.frame(k$centers)
+  df.cluster.centers<-reshape(clust.centers,idvar="cluster",ids=row.names(clust.centers), 
+                              times=names(clust.centers), timevar="sample",varying=list(names(clust.centers)),
+                              direction = "long", v.names="center")
+  
+  df.cluster.centers$cluster<-factor(df.cluster.centers$cluster, levels=(1:i))
+  df.cluster.centers$sample<-factor(df.cluster.centers$sample,levels=names(clust.centers))
+  
+  p<-ggplot(df.cluster.centers, aes(x=sample, y=center, color=cluster, group=1))
+  p<-p+facet_grid(cluster ~ .)
+  p<-p+geom_line(lwd=2)+ theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+    xlab("")
+  
+  print(p)
+
+  
+  anno_row=data.frame(cluster=as.factor(k$cluster))
+  
+
+    pheatmap(mat.scaled[order(k$cluster),], cluster_cols=F, 
+           cluster_rows = F,show_rownames = F,
+           annotation_row =anno_row ,
+           annotation_col=annotation_for_heatmap,annotation_colors = anno_colors)
+
+
+```
+
+## fuzzy c-means clustering
+
+```{r fuzzy c-means clustering}
+selected.probes<-as.character(res.IPscr_IPinh.ext[idx.genes2cluster,"PROBEID"])
+eset_final.s<-standardise(palmieri_final[selected.probes,])
+
+## get m parameter
+m1<-mestimate(eset_final.s)
+m1
+
+cl<-mfuzz(eset_final.s,c=14, m=m1)
+
+#show cluster overlap
+O<-overlap(cl)
+ptmp<-overlap.plot(cl,over=O,thres = 0.05)
+n.cluster<-nrow(cl$centers)
+member.thr<-0.25
+# plot settings
+exprs.mat<-exprs(eset_final.s)
+max.exprs<-max(exprs.mat)
+min.exprs<-min(exprs.mat)
+
+
+for(i in 1:n.cluster){
+  #get members
+  members<-cl$membership[(cl$membership[,i]>member.thr),i]
+  cl.exprs<-exprs.mat[names(members),]
+  plot.data<-reshape2::melt(cl.exprs)
+  colnames(plot.data)<-c("gene_name","array","z_scores")
+  #attach membership
+  plot.data2<-cbind(plot.data,membership=members[match(plot.data$gene_name,names(members))])
+  
+  #high membership in the front
+  plot.data2$gene_name<-factor(plot.data2$gene_name,levels = names(members)[order(members)])
+  
+  p<-ggplot(plot.data2, aes(x=array, y=z_scores, group=gene_name, color=membership))
+  p<-p+geom_line()+theme_classic()+
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+    xlab("")+scale_color_gradientn(colors = c("yellow","greenyellow","cyan","royalblue","deeppink","red"),
+                                   limits=c(0.25,1))+ggtitle(paste0("cluster",i))
+  
+ 
+    print(p)
+  
+  cluster.table<-cbind(exprs(palmieri_final)[rownames(cl.exprs),],
+        fData(palmieri_final)[match(rownames(cl.exprs),
+            fData(palmieri_final)$PROBEID), c("SYMBOL","GENENAME")],
+        cluster.membership=members[rownames(cl.exprs)])
+
+}
+```
+
+
+
+##Session info
+```{r info}
+sessionInfo()
+```

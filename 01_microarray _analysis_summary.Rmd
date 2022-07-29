@@ -1,0 +1,358 @@
+---
+author: "Uwe Schwartz"
+date: "28 6 2019"
+output:
+  html_document: default
+  pdf_document: default
+title: "Argonaut RIP-Microarray analysis"
+html_document:
+  toc: yes
+pdf_document:
+  keeptex: yes
+  toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_knit$set(root.dir = "~/Analysis/12_20190626_miRNA_Array/")
+```
+
+## Dependencies
+
+Microarray analysis was performed as recommended in the Bioconductor tutorial [An end to end workflow for differential gene expression using Affymetrix microarrays] (https://bioconductor.org/packages/devel/workflows/vignettes/maEndToEnd/inst/doc/MA-Workflow.html). 
+
+#### Install workflow
+```{r install, eval=FALSE}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+# The following initializes usage of Bioc devel
+BiocManager::install(version='devel')
+BiocManager::install("maEndToEnd")
+```
+#### Load packages
+```{r libraries, message=FALSE}
+suppressPackageStartupMessages({library("maEndToEnd")})
+library(ggrepel)
+library("clariomsmousehttranscriptcluster.db")
+```
+
+##Import data
+
+First an annotation file was created describing the source of RNA used for analysis
+
+```{r annotation file}
+# path to files
+raw_data_dir<-"data/2019-05-29_DanielaZeitler_MicroarrayNeumann_mir132-Target/CEL files/"
+
+anno.data<-data.frame(condition=c(rep(c("input","IP"),c(2,4))),
+           treatment=c("scr","inh","scr","scr","inh","inh"),
+           row.names = list.files(raw_data_dir))
+anno.data2<-cbind(anno.data,class=paste(anno.data$condition, anno.data$treatment, sep="_"))
+
+anno.data2
+
+SDRF <- AnnotatedDataFrame(anno.data2)
+```
+
+create an expression set object
+```{r, message=FALSE, results='hide'}
+raw_data <- oligo::read.celfiles(filenames = file.path(raw_data_dir, 
+                                                       row.names(anno.data2)),
+                                 verbose = FALSE, phenoData = SDRF)
+```
+
+## Exploratory data analysis
+
+The PCA of the raw data was ploted
+
+```{r PCA}
+exp_raw <- log2(Biobase::exprs(raw_data))
+PCA_raw <- prcomp(t(exp_raw), scale. = FALSE)
+
+percentVar <- round(100*PCA_raw$sdev^2/sum(PCA_raw$sdev^2),1)
+sd_ratio <- sqrt(percentVar[2] / percentVar[1])
+
+dataGG <- data.frame(PC1 = PCA_raw$x[,1], PC2 = PCA_raw$x[,2],
+                     condition = pData(raw_data)$condition,
+                     treatment = pData(raw_data)$treatment,
+                     name = rownames(pData(raw_data)))
+
+g<-ggplot(dataGG, aes(PC1, PC2, label=name))+
+  geom_point(aes(shape = condition, colour = treatment, size=3)) +
+  ggtitle("log-transformed raw expression data") +
+  xlab(paste0("PC1, VarExp: ", percentVar[1], "%")) +
+  ylab(paste0("PC2, VarExp: ", percentVar[2], "%")) +
+  theme(plot.title = element_text(hjust = 0.5))+
+  coord_fixed(ratio = sd_ratio) +
+  scale_shape_manual(values = c(4,15)) + 
+  scale_color_manual(values = c("darkorange2", "dodgerblue4"))+
+  theme_bw()+theme(aspect.ratio=4/3)
+
+```
+
+```{r plot PCA, echo=FALSE}
+library(ggrepel)
+
+print(g+geom_label_repel(hjust = 0.5, size=2.2,label.size = NA, fill=NA))
+
+```
+
+Input shows a clear separation from IP samples, however the RIP samples do not cluster together with their corresponding replicates (inhibitor and scrambled treatment).
+
+Boxplots of log2-intensities of un-normalized samples 
+```{r boxplot of raw data intensities}
+oligo::boxplot(raw_data, target = "core", las=2,pars=list(par(mar=c(11,4,4,2))),
+               main = "Boxplot of log2-intensitites for the raw data")
+```
+
+Deviation of expression intensity from the median expression of each array.
+
+```{r}
+palmieri_eset <- oligo::rma(raw_data, normalize = FALSE)
+row_medians_assayData <- 
+  Biobase::rowMedians(as.matrix(Biobase::exprs(palmieri_eset)))
+
+RLE_data <- sweep(Biobase::exprs(palmieri_eset), 1, row_medians_assayData)
+
+RLE_data <- as.data.frame(RLE_data)
+RLE_data_gathered <- 
+  tidyr::gather(RLE_data, array, log2_expression_deviation)
+
+g<-ggplot2::ggplot(RLE_data_gathered, aes(array,
+                                          log2_expression_deviation)) + 
+  geom_boxplot(outlier.shape = NA) +
+  ylim(c(-2, 2))+theme_bw() + 
+  theme(axis.text.x = element_text(colour = "aquamarine4", 
+                                   angle = 60, size = 6.5, hjust = 1 ,
+                                   face = "bold"))
+g
+```
+
+##Normalization
+The data was normalized using the rma function of the oligo package. RMA shares information across arrays and uses the versatile quantile normalization method that will make the array intensity distributions match.The quantile normalization algorithm used by RMA works by replacing values by the average of identically ranked (within a single chip) values across arrays. 
+
+```{r normalization}
+palmieri_eset_norm <- oligo::rma(raw_data)
+```
+
+### PCA analysis after normalization
+
+```{r PCA normalized data}
+######## PCA after norm
+exp_palmieri <- Biobase::exprs(palmieri_eset_norm)
+PCA <- prcomp(t(exp_palmieri), scale = FALSE)
+
+percentVar <- round(100*PCA$sdev^2/sum(PCA$sdev^2),1)
+sd_ratio <- sqrt(percentVar[2] / percentVar[1])
+
+dataGG <- data.frame(PC1 = PCA$x[,1], PC2 = PCA$x[,2],
+                     condition = pData(raw_data)$condition,
+                     treatment = pData(raw_data)$treatment,
+                     name = rownames(pData(raw_data)))
+
+g<-ggplot(dataGG, aes(PC1, PC2, label=name))+
+  geom_point(aes(shape = condition, colour = treatment)) +
+  ggtitle("PCA plot of the calibrated, summarized data") +
+  xlab(paste0("PC1, VarExp: ", percentVar[1], "%")) +
+  ylab(paste0("PC2, VarExp: ", percentVar[2], "%")) +
+  theme(plot.title = element_text(hjust = 0.5))+
+  coord_fixed(ratio = sd_ratio) +
+  scale_shape_manual(values = c(4,15)) + 
+  scale_color_manual(values = c("darkorange2", "dodgerblue4"))+
+  theme_bw()+theme(aspect.ratio=4/3)
+
+g+geom_label_repel(hjust = 0.5, size=2,label.size = NA, fill=NA)
+
+```
+
+### Sample-to-sample distances
+
+```{r heatmap sample distances}
+condition_names <- ifelse(str_detect(pData(palmieri_eset_norm)$condition,
+                                     "input"), "input", "IP")
+
+treatment_names <- ifelse(str_detect(pData(palmieri_eset_norm)$treatment,
+                                   "scr"), "scr", "inh")
+
+annotation_for_heatmap <-data.frame(condition = condition_names,  treatment = treatment_names)
+row.names(annotation_for_heatmap) <- row.names(pData(palmieri_eset_norm))
+
+## calcualte distances
+dists <- as.matrix(dist(t(exp_palmieri), method = "manhattan"))
+
+rownames(dists) <- row.names(pData(palmieri_eset_norm))
+hmcol <- rev(colorRampPalette(RColorBrewer::brewer.pal(9, "YlOrRd"))(255))
+colnames(dists) <- NULL
+diag(dists) <- NA
+
+ann_colors <- list( condition= c(input = "chartreuse4", IP = "burlywood3"),
+  treatment= c(inh = "blue4", scr = "cadetblue2"))
+
+
+  pheatmap(dists, col = (hmcol), 
+           annotation_row = annotation_for_heatmap,
+           annotation_colors = ann_colors,
+           legend = TRUE, 
+           treeheight_row = 0,
+           legend_breaks = c(min(dists, na.rm = TRUE), 
+                             max(dists, na.rm = TRUE)), 
+           legend_labels = (c("small distance", "large distance")),
+           main = "Clustering heatmap for the calibrated samples")
+
+```
+
+After normalization RIP samples of the same treatment do not cluster together.
+
+## Filtering
+
+```{r intensity filtering}
+palmieri_eset_norm$cond.class<-factor(c(rep("input",2),as.character(palmieri_eset_norm$class)[3:6]))
+
+list.intensities<-list()
+for(i in levels(palmieri_eset_norm$cond.class)){
+  samps<-rownames(pData(palmieri_eset_norm))[(palmieri_eset_norm$cond.class ==i)]
+  
+  palmieri_medians <- rowMedians(Biobase::exprs(palmieri_eset_norm)[,samps])
+  list.intensities[[i]]<-palmieri_medians 
+}
+##### get overlay plot
+#get maximums
+max.x<-max(sapply(list.intensities, function(x) max(density(x)$x)))
+max.y<-max(sapply(list.intensities, function(x) max(density(x)$y)))
+cols.brew<-RColorBrewer::brewer.pal(4,"Set1")
+
+  for(i in 1:length(list.intensities)){
+    name<- names(list.intensities)[i]
+    if(i==1){
+      plot(density(list.intensities[[i]]),ylim=c(0,max.y), xlim=c(0,max.x),
+           col=cols.brew[i], lwd=2, xlab="median intensities",  
+           main = "Distribution of the median intensities ")
+    } else {
+      lines(density(list.intensities[[i]]), lwd=2,col=cols.brew[i])
+    } 
+   
+  }  
+  legend("topright", legend = names(list.intensities), lwd=2, col=cols.brew, bty="n")
+  abline(v = 5, col = "coral4", lwd = 2)
+
+
+```
+
+IP distribution is destinct from input distribution. Therefore, only IP values are used for filtering.Only probes with intensities > 5 in at least 2 IP samples are considered for further analysis 
+
+```{r filtering}
+########### filtering intensities higher in at least 2 samples of the IP
+samples_cutoff <-2
+
+# not input samples
+samp.chx<-rownames(pData(palmieri_eset_norm))[pData(palmieri_eset_norm)$condition=="IP"]
+
+idx_man_threshold <- apply(Biobase::exprs(palmieri_eset_norm)[,samp.chx], 1,
+                           function(x){
+                             sum(x > 5) >= samples_cutoff})
+# filterd probes
+table(idx_man_threshold)
+
+
+palmieri_manfiltered <- subset(palmieri_eset_norm, idx_man_threshold)
+
+```
+
+19650 probes were used for further analysis
+
+## Annotation of gene names
+
+Probe IDs were converted to readable Gene Symbols. Probes, which cannot be assigned to a valid gene name were excluded.
+
+```{r get gene names}
+anno_palmieri <- AnnotationDbi::select(clariomsmousehttranscriptcluster.db,
+                                       keys = (featureNames(palmieri_manfiltered)),
+                                       columns = c("SYMBOL", "GENENAME"),
+                                       keytype = "PROBEID")
+anno_palmieri <- subset(anno_palmieri, !is.na(SYMBOL))
+
+# get multimapping ids
+anno_grouped <- group_by(anno_palmieri, PROBEID)
+anno_summarized <- 
+  dplyr::summarize(anno_grouped, no_of_matches = n_distinct(SYMBOL))
+
+
+## merge all gene names of those with multimapping ids
+anno_filtered <- filter(anno_summarized, no_of_matches > 1)
+
+probe_stats <- anno_filtered 
+#number of mult-ID probes
+nrow(probe_stats)
+
+multi.ids<-(anno_palmieri[(anno_palmieri$PROBEID %in% probe_stats$PROBEID),])
+multi.symbols<-sapply(split(multi.ids,multi.ids$PROBEID),function(x) paste(x$SYMBOL,collapse = "/"))
+multi.genenames<-sapply(split(multi.ids,multi.ids$PROBEID),function(x) paste(x$GENENAME,collapse = "/"))
+
+ids_to_subset <- (anno_palmieri$PROBEID %in% probe_stats$PROBEID)
+anno_palmieri <- subset(anno_palmieri, !ids_to_subset)
+
+
+anno_palmieri_final<-rbind(anno_palmieri,
+      data.frame(PROBEID=names(multi.symbols),SYMBOL=multi.symbols, GENENAME=multi.genenames))
+
+## exclude not annotated probes
+ids_to_keep <- (featureNames(palmieri_manfiltered) %in% anno_palmieri_final$PROBEID)
+
+table(ids_to_keep)
+palmieri_final <- subset(palmieri_manfiltered, ids_to_keep)
+
+fData(palmieri_final)$PROBEID <- rownames(fData(palmieri_final))
+fData(palmieri_final) <- left_join(fData(palmieri_final), anno_palmieri_final)
+
+```
+
+16113 probes are left for differential analysis.
+
+## Differential analysis
+
+To identify significant changes in RNA composition of the pulled down Argonaut complex a linear model was fit.
+The main idea is to fit a linear model to the expression data for each gene. Empirical Bayes and other methods are used to borrow information across genes for the residual variance estimation leading to moderated t-statistics, and stabilizing the analysis for experiments with just a small number of arrays. Conceptually, the final per gene variance is a mix of a prior variance and the per gene variance.
+
+```{r differential analysis}
+
+design<-model.matrix(~0+factor(c(1,1,2,2,3,3)))
+colnames(design)<-c("input", "IP_scr", "IP_inh")
+fit<-lmFit(palmieri_final, design)
+
+contrast.matrix<-makeContrasts(input-IP_scr, input-IP_inh,IP_scr-IP_inh  ,levels = design)
+fit2<-contrasts.fit(fit, contrast.matrix)
+fit2<-eBayes(fit2)
+
+expFinal<-exprs(palmieri_final)
+## IPscr vs IPinh
+res.IPscr_IPinh<-topTable(fit2, coef=3, number = Inf , adjust="BH")
+res.IPscr_IPinh.ext<-cbind(res.IPscr_IPinh,expFinal[match(res.IPscr_IPinh$PROBEID, rownames(expFinal)),])
+
+# show top hits
+head(res.IPscr_IPinh.ext)
+```
+
+0 significantly changed genes were detected after normalization for multiple testing. P-value distribution is shown below.
+
+```{r pValue distribution}
+  hist(res.IPscr_IPinh$P.Value, col = brewer.pal(3, name = "Set2")[2],
+     main = "IP_scr vs IP_inh", xlab = "p-values")
+```
+
+Volcano plot highliting the top 20 genes
+
+```{r volcano}
+  volcanoplot(fit2, coef = 3, style = "p-value", highlight = 20, names = fit2$genes$SYMBOL,
+            xlab = "Log2 Fold Change", ylab = NULL, pch=16, cex=0.35, main=
+              "IP_scr vs IP_inh")
+```
+
+
+
+
+##Session info
+```{r info}
+sessionInfo()
+```

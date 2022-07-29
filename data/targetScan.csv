@@ -1,0 +1,416 @@
+﻿Target gene;Representative transcript;Gene name;Number of 3P-seq tags supporting UTR + 5;Link to sites in UTRs;Conserved sites;;;;Poorly conserved sites;;;;6mer sites;Representative miRNA;Cumulative weighted context++ score;Total context++ score;Aggregate PCT;Previous TargetScan publication(s)
+;;;;;total;8mer;7mer-m8;7mer-A1;total;8mer;7mer-m8;7mer-A1;;;;;;
+Ssh2;ENSMUST00000037912.6;slingshot homolog 2 (Drosophila);845;Sites in UTR;1;1;0;0;1;0;0;1;3;mmu-miR-212-3p;-1.15;-1.25;0.45;2005, 2007
+Paip2;ENSMUST00000041314.9;polyadenylate-binding protein-interacting protein 2;8516;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-1.12;-1.18;0.84;2005, 2007, 2009, 2011
+Timm9;ENSMUST00000166120.2;translocase of inner mitochondrial membrane 9;390;Sites in UTR;1;1;0;0;0;0;0;0;2;mmu-miR-132-3p;-1.08;-1.50;0.30;2005, 2007, 2011
+Brwd1;ENSMUST00000113829.2;bromodomain and WD repeat domain containing 1;547;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.99;-1.22;0.42;2005, 2007, 2011
+Hmga2;ENSMUST00000159699.1;high mobility group AT-hook 2;10108;Sites in UTR;1;0;1;0;2;1;1;0;2;mmu-miR-212-3p;-0.96;-0.97;0.49;2005, 2007, 2009, 2011
+Shh;ENSMUST00000002708.3;sonic hedgehog;28;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.94;-1.05;0.59;2009, 2011
+Gpd2;ENSMUST00000169687.2;glycerol phosphate dehydrogenase 2, mitochondrial;6529;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.93;-0.98;0.80;2007, 2011
+Ppfibp1;ENSMUST00000016631.8;PTPRF interacting protein, binding protein 1 (liprin beta 1);2766;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.91;-0.92;0.34;2005, 2007, 2009, 2011
+Anp32a;ENSMUST00000085519.7;acidic (leucine-rich) nuclear phosphoprotein 32 family, member A;803;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.83;-0.86;0.56;2005, 2007, 2009, 2011
+H2afz;ENSMUST00000173790.2;H2A histone family, member Z;72;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-212-3p;-0.76;-0.81;0.28;2005, 2007, 2009, 2011
+Arhgap32;ENSMUST00000174641.2;Rho GTPase activating protein 32;299;Sites in UTR;2;0;1;1;0;0;0;0;0;mmu-miR-212-3p;-0.76;-0.78;0.66;2007, 2009, 2011
+Mtf2;ENSMUST00000081567.5;metal response element binding transcription factor 2;544;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-132-3p;-0.74;-0.85;0.23;2005, 2007, 2009, 2011
+Ddx6;ENSMUST00000170489.1;DEAD (Asp-Glu-Ala-Asp) box polypeptide 6;585;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.69;-0.72;< 0.1;2009, 2011
+Zfp474;ENSMUST00000072666.3;zinc finger protein 474;63;Sites in UTR;1;1;0;0;1;0;1;0;0;mmu-miR-212-3p;-0.64;-0.64;0.14;2009, 2011
+Trim37;ENSMUST00000041282.7;tripartite motif-containing 37;395;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.63;-0.64;< 0.1;2005, 2007, 2009, 2011
+Zfp236;ENSMUST00000171071.3;zinc finger protein 236;741;Sites in UTR;2;0;0;2;2;0;0;2;1;mmu-miR-212-3p;-0.61;-0.75;0.41;2011
+Sox5;ENSMUST00000111748.2;SRY (sex determining region Y)-box 5;59;Sites in UTR;2;1;0;1;1;0;1;0;0;mmu-miR-212-3p;-0.60;-0.61;0.82;2005, 2007, 2009, 2011
+Ube2d2a;ENSMUST00000170693.2;ubiquitin-conjugating enzyme E2D 2A;1832;Sites in UTR;1;1;0;0;2;0;0;2;0;mmu-miR-212-3p;-0.59;-0.65;0.83;2009, 2011
+Pacrg;ENSMUST00000041463.6;PARK2 co-regulated;62;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.59;-0.59;0.38;2007, 2009, 2011
+Crk;ENSMUST00000017920.8;v-crk sarcoma virus CT10 oncogene homolog (avian);2790;Sites in UTR;1;0;1;0;2;0;0;2;1;mmu-miR-132-3p;-0.58;-0.94;0.52;2005, 2007, 2009, 2011
+Matr3;ENSMUST00000166793.2;matrin 3;2936;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-212-3p;-0.58;-0.80;0.23;2005, 2007, 2009, 2011
+Hmbox1;ENSMUST00000022544.8;homeobox containing 1;1109;Sites in UTR;2;0;2;0;0;0;0;0;1;mmu-miR-132-3p;-0.54;-0.55;0.72;
+Hmgxb4;ENSMUST00000041759.8;HMG box domain containing 4;1454;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.54;-0.54;0.23;2007, 2009, 2011
+9930021J03Rik;ENSMUST00000177155.2;RIKEN cDNA 9930021J03 gene;221;Sites in UTR;1;0;0;1;2;0;0;2;2;mmu-miR-132-3p;-0.53;-0.85;0.23;2009, 2011
+Fam167a;ENSMUST00000121288.1;family with sequence similarity 167, member A;7;Sites in UTR;1;1;0;0;2;0;1;1;2;mmu-miR-212-3p;-0.52;-0.52;0.58;2007, 2009, 2011
+Dusp9;ENSMUST00000019701.8;dual specificity phosphatase 9;2534;Sites in UTR;1;1;0;0;1;0;1;0;1;mmu-miR-132-3p;-0.51;-0.51;0.57;2005, 2007, 2009, 2011
+Dyrk2;ENSMUST00000004281.8;dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 2;1322;Sites in UTR;1;0;1;0;1;0;1;0;3;mmu-miR-212-3p;-0.50;-0.54;0.55;2007, 2009, 2011
+Zbed5;ENSMUST00000041466.8;zinc finger, BED-type containing 5;98;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.50;-0.50;< 0.1;2009, 2011
+Gdf5;ENSMUST00000040162.2;growth differentiation factor 5;11;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.50;-0.50;0.20;2005, 2007, 2009, 2011
+Ccdc71l;ENSMUST00000172332.3;coiled-coil domain containing 71 like;436;Sites in UTR;1;1;0;0;5;0;2;3;0;mmu-miR-132-3p;-0.50;-0.85;0.41;2007, 2011
+Tjap1;ENSMUST00000164342.3;tight junction associated protein 1;125;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.48;-0.48;0.77;2005, 2007, 2009, 2011
+Cbll1;ENSMUST00000064240.7;Casitas B-lineage lymphoma-like 1;495;Sites in UTR;1;1;0;0;3;0;1;2;1;mmu-miR-132-3p;-0.48;-0.59;0.29;2005, 2007, 2009, 2011
+Nrep;ENSMUST00000051087.9;neuronal regeneration related protein;693;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.48;-0.51;0.71;2007, 2009, 2011
+Polr2d;ENSMUST00000025106.3;polymerase (RNA) II (DNA directed) polypeptide D;602;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.47;-0.48;< 0.1;2009, 2011
+Slc6a1;ENSMUST00000032454.5;solute carrier family 6 (neurotransmitter transporter, GABA), member 1;7;Sites in UTR;2;1;1;0;1;0;1;0;0;mmu-miR-212-3p;-0.47;-0.47;0.80;2005, 2007, 2009, 2011
+Sgk3;ENSMUST00000168907.2;serum/glucocorticoid regulated kinase 3;254;Sites in UTR;1;0;1;0;1;0;0;1;1;mmu-miR-132-3p;-0.47;-0.55;0.56;2007, 2009, 2011
+Prkd1;ENSMUST00000002765.7;protein kinase D1;95;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.46;-0.58;0.23;2005, 2007, 2009, 2011
+C130026L21Rik;ENSMUST00000064930.3;RIKEN cDNA C130026L21 gene;5;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.46;-0.46;0.84;
+Eif4a2;ENSMUST00000077605.6;eukaryotic translation initiation factor 4A2;188;Sites in UTR;1;0;1;0;1;0;1;0;2;mmu-miR-212-3p;-0.46;-1.20;0.54;2005, 2007, 2009, 2011
+Fkbp2;ENSMUST00000177752.2;FK506 binding protein 2;156;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.45;-0.47;0.29;2005, 2007, 2009, 2011
+Tex264;ENSMUST00000169068.2;testis expressed gene 264;2053;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.45;-0.45;< 0.1;2005, 2007, 2009, 2011
+Sptssa;ENSMUST00000056228.6;serine palmitoyltransferase, small subunit A;982;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.44;-0.45;0.53;2007, 2009, 2011
+Bri3;ENSMUST00000056578.6;brain protein I3;882;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.44;-0.45;0.17;2005, 2007, 2009, 2011
+Dnmt3a;ENSMUST00000020991.9;DNA methyltransferase 3A;1717;Sites in UTR;3;0;1;2;0;0;0;0;0;mmu-miR-132-3p;-0.44;-0.98;0.71;2005, 2007, 2009, 2011
+Dazap2;ENSMUST00000000356.8;DAZ associated protein 2;13105;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.44;-0.44;0.55;2005, 2007, 2009, 2011
+Kcna2;ENSMUST00000038695.1;potassium voltage-gated channel, shaker-related subfamily, member 2;106;Sites in UTR;1;0;1;0;1*;0;0;0;0;mmu-miR-132-3p;-0.44;-0.47;0.50;
+Rgs7bp;ENSMUST00000063551.5;regulator of G-protein signalling 7 binding protein;26;Sites in UTR;2;1;1;0;1;0;0;1;2;mmu-miR-132-3p;-0.44;-0.61;0.73;2007, 2009, 2011
+Ep300;ENSMUST00000068387.5;E1A binding protein p300;2947;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.44;-0.44;0.80;2005, 2007, 2009, 2011
+Calu;ENSMUST00000031779.11;calumenin;46;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.42;-0.51;0.38;2005, 2007, 2009, 2011
+Klhl11;ENSMUST00000056665.3;kelch-like 11;13;Sites in UTR;1;1;0;0;0;0;0;0;2;mmu-miR-132-3p;-0.42;-0.45;0.34;2005, 2007, 2009, 2011
+Mex3c;ENSMUST00000091852.4;mex3 homolog C (C. elegans);152;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.42;-0.42;0.61;2007, 2009, 2011
+Dynll2;ENSMUST00000020775.3;dynein light chain LC8-type 2;12752;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.41;-0.41;0.55;2007, 2009, 2011
+Cc2d1b;ENSMUST00000030320.7;coiled-coil and C2 domain containing 1B;62;Sites in UTR;1;1;0;0;1;0;0;1;0;mmu-miR-212-3p;-0.39;-0.40;0.61;2007, 2009, 2011
+Lrrfip1;ENSMUST00000097649.4;leucine rich repeat (in FLII) interacting protein 1;2679;Sites in UTR;1;1;0;0;1;0;0;1;1;mmu-miR-212-3p;-0.38;-0.38;0.33;2005, 2007, 2009, 2011
+Golga4;ENSMUST00000084820.4;golgi autoantigen, golgin subfamily a, 4;4778;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-132-3p;-0.38;-0.38;0.56;2005, 2007, 2009, 2011
+Pnn;ENSMUST00000021381.4;pinin;2310;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-212-3p;-0.38;-0.56;0.25;2005, 2007, 2009, 2011
+Arhgef11;ENSMUST00000039476.9;Rho guanine nucleotide exchange factor (GEF) 11;249;Sites in UTR;1;0;1;0;1;0;0;1;0;mmu-miR-212-3p;-0.38;-0.50;0.46;2005, 2007, 2009, 2011
+Sepsecs;ENSMUST00000031069.7;Sep (O-phosphoserine) tRNA:Sec (selenocysteine) tRNA synthase;704;Sites in UTR;1;0;1;0;3;1;2;0;0;mmu-miR-132-3p;-0.38;-0.51;< 0.1;
+Kcna6;ENSMUST00000185333.1;potassium voltage-gated channel, shaker-related, subfamily, member 6;14;Sites in UTR;2;1;1;0;1;0;1;0;0;mmu-miR-212-3p;-0.38;-0.38;0.72;2005, 2007, 2009, 2011
+Cacng2;ENSMUST00000019290.2;calcium channel, voltage-dependent, gamma subunit 2;5;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.38;-0.38;0.78;
+Tfdp1;ENSMUST00000170909.1;transcription factor Dp 1;6372;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.37;-0.38;0.23;
+Tmed7;ENSMUST00000151189.1;transmembrane emp24 protein transport domain containing 7;840;Sites in UTR;1;0;1;0;2;0;1;1;0;mmu-miR-212-3p;-0.36;-0.48;< 0.1;2005, 2007, 2011
+Foxn3;ENSMUST00000046859.5;forkhead box N3;698;Sites in UTR;2;0;1;1;2;0;2;0;2;mmu-miR-212-3p;-0.36;-0.37;0.63;2007, 2009, 2011
+Lemd3;ENSMUST00000119944.2;LEM domain containing 3;141;Sites in UTR;1;1;0;0;1;0;0;1;0;mmu-miR-212-3p;-0.36;-0.36;0.38;2005, 2007, 2009, 2011
+Ints8;ENSMUST00000044616.4;integrator complex subunit 8;6;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.36;-0.36;ORF;
+D1Ertd622e;ENSMUST00000053033.8;DNA segment, Chr 1, ERATO Doi 622, expressed;911;Sites in UTR;1;1;0;0;2;0;0;2;5;mmu-miR-212-3p;-0.36;-0.61;< 0.1;2009, 2011
+Kdm5a;ENSMUST00000005108.7;lysine (K)-specific demethylase 5A;844;Sites in UTR;2;0;1;1;1;0;1;0;1;mmu-miR-212-3p;-0.36;-0.37;0.64;2007, 2011
+Zbtb20;ENSMUST00000114694.3;zinc finger and BTB domain containing 20;293;Sites in UTR;3;1;2;0;1;0;1;0;10;mmu-miR-132-3p;-0.35;-0.47;0.96;
+Tbc1d30;ENSMUST00000064107.5;TBC1 domain family, member 30;252;Sites in UTR;1;1;0;0;1;1;0;0;4;mmu-miR-132-3p;-0.35;-0.37;0.70;2011
+Slc30a6;ENSMUST00000179074.2;solute carrier family 30 (zinc transporter), member 6;245;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-212-3p;-0.35;-0.47;0.50;2005, 2007, 2009, 2011
+Amd1;ENSMUST00000099945.4;S-adenosylmethionine decarboxylase 1;295;Sites in UTR;1;0;1;0;1;0;0;1;0;mmu-miR-212-3p;-0.35;-0.35;0.66;2005, 2007, 2009, 2011
+Mapk1;ENSMUST00000069107.8;mitogen-activated protein kinase 1;3469;Sites in UTR;1;1;0;0;2;1;1;0;2;mmu-miR-132-3p;-0.35;-0.55;0.77;2005, 2007, 2009, 2011
+Glcci1;ENSMUST00000064285.9;glucocorticoid induced transcript 1;423;Sites in UTR;1;1;0;0;2;0;2;0;3;mmu-miR-212-3p;-0.34;-0.36;0.54;2007, 2009, 2011
+Kcnj12;ENSMUST00000089184.5;potassium inwardly-rectifying channel, subfamily J, member 12;445;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-132-3p;-0.34;-0.37;0.35;2005, 2007, 2009, 2011
+Spry1;ENSMUST00000108109.2;sprouty homolog 1 (Drosophila);291;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-132-3p;-0.34;-0.46;0.56;2005, 2007, 2009, 2011
+Bnip2;ENSMUST00000034754.6;BCL2/adenovirus E1B interacting protein 2;1067;Sites in UTR;1;0;1;0;2;0;1;1;2;mmu-miR-132-3p;-0.34;-0.43;0.52;2005, 2007, 2009, 2011
+Tmeff1;ENSMUST00000030032.7;transmembrane protein with EGF-like and two follistatin-like domains 1;13;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.34;-0.34;0.29;2005, 2007, 2009, 2011
+Mef2a;ENSMUST00000156690.2;myocyte enhancer factor 2A;2235;Sites in UTR;1;1;0;0;0;0;0;0;3;mmu-miR-212-3p;-0.33;-0.35;0.69;
+Adcy1;ENSMUST00000020706.4;adenylate cyclase 1;52;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.33;-0.36;0.11;2005, 2007, 2009, 2011
+Foxa1;ENSMUST00000044380.6;forkhead box A1;116;Sites in UTR;1;1;0;0;1;0;0;1;1;mmu-miR-212-3p;-0.32;-0.35;0.77;2005, 2007, 2009, 2011
+Sppl3;ENSMUST00000031530.5;signal peptide peptidase 3;1551;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.32;-0.32;0.24;2005, 2007, 2009, 2011
+Isl1;ENSMUST00000036060.7;ISL1 transcription factor, LIM/homeodomain;18;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.32;-0.32;0.50;2005, 2007, 2009, 2011
+Gna12;ENSMUST00000000153.4;guanine nucleotide binding protein, alpha 12;537;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.32;-0.33;0.23;2005, 2007
+Cnih1;ENSMUST00000015903.5;cornichon homolog 1 (Drosophila);381;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.32;-0.33;0.22;2007, 2009, 2011
+Epn2;ENSMUST00000108711.2;epsin 2;323;Sites in UTR;1;0;1;0;3;0;1;2;1;mmu-miR-212-3p;-0.32;-0.37;0.11;2005, 2007, 2009, 2011
+Rasa1;ENSMUST00000109552.2;RAS p21 protein activator 1;2160;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.32;-0.32;0.56;2005, 2007, 2009, 2011
+Mycbp2;ENSMUST00000159855.2;MYC binding protein 2;526;Sites in UTR;1;1;0;0;1;0;0;1;1;mmu-miR-212-3p;-0.32;-0.33;0.84;2005, 2007, 2009, 2011
+Hbegf;ENSMUST00000025363.5;heparin-binding EGF-like growth factor;131;Sites in UTR;1;1;0;0;1;0;0;1;0;mmu-miR-132-3p;-0.32;-0.41;0.47;2005, 2007, 2009, 2011
+Adcy3;ENSMUST00000124505.2;adenylate cyclase 3;228;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.32;-0.32;0.17;2005, 2007, 2011
+Rnf13;ENSMUST00000041826.9;ring finger protein 13;4649;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.31;-0.31;0.23;2005, 2007, 2009, 2011
+Klf7;ENSMUST00000114086.2;Kruppel-like factor 7 (ubiquitous);1571;Sites in UTR;2;1;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.31;-0.33;0.71;
+Zcchc11;ENSMUST00000097925.3;zinc finger, CCHC domain containing 11;708;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-132-3p;-0.31;-0.41;0.32;2005, 2007, 2009, 2011
+Sap30l;ENSMUST00000020826.5;SAP30-like;4466;Sites in UTR;1;0;1;0;2;0;1;1;5;mmu-miR-132-3p;-0.31;-0.40;0.56;2005, 2007, 2009, 2011
+Elmsan1;ENSMUST00000046266.7;ELM2 and Myb/SANT-like domain containing 1;220;Sites in UTR;1;1;0;0;1;0;1;0;3;mmu-miR-212-3p;-0.30;-0.35;0.80;2007, 2011
+Sema4g;ENSMUST00000026225.9;sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4G;554;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.30;-0.30;0.63;2005, 2007, 2009, 2011
+Ncald;ENSMUST00000090150.5;neurocalcin delta;230;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-212-3p;-0.30;-0.38;0.40;2005, 2007, 2009, 2011
+Cfl2;ENSMUST00000078124.7;cofilin 2, muscle;11408;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.30;-0.30;0.44;2005, 2007, 2009, 2011
+Rb1;ENSMUST00000022701.6;retinoblastoma 1;607;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.29;-0.30;< 0.1;2005, 2007, 2009, 2011
+Fbxo21;ENSMUST00000035579.6;F-box protein 21;533;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.29;-0.32;0.37;2007, 2009, 2011
+Lin28b;ENSMUST00000079390.6;lin-28 homolog B (C. elegans);191;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.29;-0.29;0.40;2005, 2007, 2009, 2011
+D15Ertd621e;ENSMUST00000037270.3;DNA segment, Chr 15, ERATO Doi 621, expressed;2211;Sites in UTR;1;1;0;0;1;0;0;1;0;mmu-miR-132-3p;-0.29;-0.29;0.51;2009, 2011
+Kcnk2;ENSMUST00000180044.2;potassium channel, subfamily K, member 2;309;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;-0.29;-0.29;0.47;2005, 2007, 2009, 2011
+Osbpl8;ENSMUST00000105275.2;oxysterol binding protein-like 8;1442;Sites in UTR;2;1;1;0;1;0;0;1;3;mmu-miR-212-3p;-0.29;-0.39;0.78;2005, 2007, 2009, 2011
+Azin1;ENSMUST00000110328.2;antizyme inhibitor 1;8613;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.29;-0.41;0.10;2007, 2009, 2011
+Sltm;ENSMUST00000049263.7;SAFB-like, transcription modulator;771;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-132-3p;-0.28;-0.28;0.23;2007, 2009, 2011
+Mepce;ENSMUST00000031740.10;methylphosphate capping enzyme;163;Sites in UTR;1;0;1;0;1;1;0;0;0;mmu-miR-132-3p;-0.28;-0.48;0.54;2007, 2009, 2011
+Rap2b;ENSMUST00000049064.2;RAP2B, member of RAS oncogene family;777;Sites in UTR;1;0;1;0;1;1;0;0;5;mmu-miR-212-3p;-0.28;-0.53;0.49;2005, 2007, 2009, 2011
+Runx1t1;ENSMUST00000006761.4;"runt-related transcription factor 1; translocated to, 1 (cyclin D-related)";51;Sites in UTR;2;0;1;1;0;0;0;0;0;mmu-miR-132-3p;-0.28;-0.32;0.55;2009, 2011
+Kbtbd13;ENSMUST00000068307.3;kelch repeat and BTB (POZ) domain containing 13;103;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.28;-0.28;< 0.1;2009, 2011
+Cdc40;ENSMUST00000044166.7;cell division cycle 40;715;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.28;-0.29;0.26;2007
+H3f3b;ENSMUST00000106454.2;H3 histone, family 3B;1229;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.28;-0.28;0.56;2005, 2007, 2009, 2011
+Arih1;ENSMUST00000171975.2;ariadne ubiquitin-conjugating enzyme E2 binding protein homolog 1 (Drosophila);3517;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-212-3p;-0.27;-0.38;0.55;2009, 2011
+Vps9d1;ENSMUST00000117643.2;VPS9 domain containing 1;1280;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.27;-0.27;< 0.1;2007, 2011
+Phf20l1;ENSMUST00000048188.8;PHD finger protein 20-like 1;862;Sites in UTR;1;0;1;0;2;1;1;0;3;mmu-miR-132-3p;-0.27;-0.30;0.46;2005, 2007, 2009, 2011
+Taf4a;ENSMUST00000041618.8;TAF4A RNA polymerase II, TATA box binding protein (TBP)-associated factor;1467;Sites in UTR;2;0;1;1;0;0;0;0;0;mmu-miR-212-3p;-0.27;-0.27;0.35;2009, 2011
+Adamts6;ENSMUST00000065766.6;a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 6;49;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-132-3p;-0.27;-0.27;0.23;2005, 2007, 2009, 2011
+Zfc3h1;ENSMUST00000036044.8;zinc finger, C3H1-type containing;314;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.27;-0.27;0.40;2007, 2009, 2011
+C1ql1;ENSMUST00000057849.5;complement component 1, q subcomponent-like 1;15;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.26;-0.26;< 0.1;2005, 2007, 2011
+Gtdc1;ENSMUST00000112810.2;glycosyltransferase-like domain containing 1;191;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.26;-0.26;0.42;2005, 2007, 2009, 2011
+Ptbp2;ENSMUST00000029780.7;polypyrimidine tract binding protein 2;508;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.26;-0.26;0.56;2005, 2007, 2009, 2011
+Arid2;ENSMUST00000096250.4;AT rich interactive domain 2 (ARID, RFX-like);2256;Sites in UTR;2;0;1;1;0;0;0;0;2;mmu-miR-132-3p;-0.25;-0.26;0.66;2005, 2007, 2009, 2011
+Baalc;ENSMUST00000163313.1;brain and acute leukemia, cytoplasmic;24;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.25;-0.41;0.45;
+Nacc2;ENSMUST00000114159.3;nucleus accumbens associated 2, BEN and BTB (POZ) domain containing;117;Sites in UTR;2;2;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.25;-0.48;0.96;2009, 2011
+Daam1;ENSMUST00000085299.2;dishevelled associated activator of morphogenesis 1;590;Sites in UTR;2;1;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.25;-0.32;0.89;2009, 2011
+Hnrnpu;ENSMUST00000037748.8;heterogeneous nuclear ribonucleoprotein U;31081;Sites in UTR;1;0;1;0;1;1;0;0;0;mmu-miR-212-3p;-0.25;-0.43;0.56;2007, 2009, 2011
+Rras2;ENSMUST00000069449.5;related RAS viral (r-ras) oncogene homolog 2;4798;Sites in UTR;1;1;0;0;2;0;0;2;1;mmu-miR-132-3p;-0.25;-0.56;< 0.1;2007, 2009, 2011
+Hkdc1;ENSMUST00000020277.8;hexokinase domain containing 1;10;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.25;-0.25;< 0.1;2005, 2007, 2009, 2011
+Usp9x;ENSMUST00000089302.5;ubiquitin specific peptidase 9, X chromosome;5;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.25;-0.25;0.77;2005, 2007, 2009, 2011
+Crim1;ENSMUST00000112498.2;cysteine rich transmembrane BMP regulator 1 (chordin like);926;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-212-3p;-0.25;-0.26;0.11;2005, 2007, 2011
+Tsnax;ENSMUST00000075896.6;translin-associated factor X;5;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.25;-0.25;0.46;2005, 2007, 2009, 2011
+Zfyve1;ENSMUST00000048319.4;zinc finger, FYVE domain containing 1;283;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.25;-0.32;0.60;2005, 2007, 2009, 2011
+Ppm1g;ENSMUST00000031032.7;protein phosphatase 1G (formerly 2C), magnesium-dependent, gamma isoform;264;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.24;-0.24;0.11;2005, 2009, 2011
+Akirin1;ENSMUST00000102636.3;akirin 1;238;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.24;-0.24;0.54;2007, 2009, 2011
+Maf;ENSMUST00000109104.1;avian musculoaponeurotic fibrosarcoma (v-maf) AS42 oncogene homolog;2481;Sites in UTR;1;0;1;0;1;0;1;0;3;mmu-miR-132-3p;-0.24;-0.35;0.56;2007, 2009, 2011
+Map3k3;ENSMUST00000002044.9;mitogen-activated protein kinase kinase kinase 3;437;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.24;-0.28;0.69;2007
+Tcf7l1;ENSMUST00000069536.6;transcription factor 7 like 1 (T cell specific, HMG box);185;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.24;-0.24;0.38;2005, 2007, 2009, 2011
+Mcidas;ENSMUST00000092089.4;multiciliate differentiation and DNA synthesis associated cell cycle protein;7;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-132-3p;-0.24;-0.26;0.23;2009, 2011
+Btg2;ENSMUST00000020692.6;B cell translocation gene 2, anti-proliferative;3163;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-132-3p;-0.24;-0.24;0.55;2005, 2007, 2009, 2011
+Dcun1d4;ENSMUST00000063882.6;DCN1, defective in cullin neddylation 1, domain containing 4 (S. cerevisiae);353;Sites in UTR;1;0;0;1;1;0;1;0;1;mmu-miR-212-3p;-0.24;-0.26;0.23;2007, 2009, 2011
+Dock4;ENSMUST00000037488.6;dedicator of cytokinesis 4;596;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.24;-0.25;0.16;2007, 2009, 2011
+Cbfa2t2;ENSMUST00000109725.2;core-binding factor, runt domain, alpha subunit 2, translocated to, 2 (human);851;Sites in UTR;1;0;0;1;2;0;1;1;2;mmu-miR-212-3p;-0.24;-0.27;0.23;2005, 2007, 2009, 2011
+Cebpz;ENSMUST00000024885.8;CCAAT/enhancer binding protein zeta;109;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.24;-0.25;ORF;2005, 2007, 2009
+Arx;ENSMUST00000113947.3;aristaless related homeobox;7;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.23;-0.23;0.48;2009, 2011
+Dnaja2;ENSMUST00000034138.5;DnaJ (Hsp40) homolog, subfamily A, member 2;14663;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-132-3p;-0.23;-0.33;0.18;2005, 2007, 2009, 2011
+Psma2;ENSMUST00000170836.2;proteasome (prosome, macropain) subunit, alpha type 2;1708;Sites in UTR;1;0;0;1;3;0;3;0;2;mmu-miR-132-3p;-0.23;-0.53;0.23;2005, 2007, 2009, 2011
+Zswim6;ENSMUST00000105097.2;zinc finger SWIM-type containing 6;294;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.23;-0.23;0.53;2011
+Mapt;ENSMUST00000106992.4;microtubule-associated protein tau;1811;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.22;-0.23;0.49;2007, 2009, 2011
+Mex3a;ENSMUST00000172699.1;mex3 homolog A (C. elegans);442;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.22;-0.23;0.79;2007, 2009, 2011
+Ctdspl2;ENSMUST00000036647.7;CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase like 2;546;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.22;-0.23;0.46;2007, 2009, 2011
+Scn3a;ENSMUST00000066432.6;sodium channel, voltage-gated, type III, alpha;149;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.22;-0.22;0.54;2005, 2007, 2009, 2011
+Tceb1;ENSMUST00000188641.1;transcription elongation factor B (SIII), polypeptide 1;2260;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.22;-0.22;0.23;2005, 2007, 2009, 2011
+Sox4;ENSMUST00000067230.5;SRY (sex determining region Y)-box 4;1640;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.22;-0.22;0.49;2005, 2007
+Tspyl5;ENSMUST00000042021.3;testis-specific protein, Y-encoded-like 5;11;Sites in UTR;1;1;0;0;1;0;1;0;1;mmu-miR-212-3p;-0.21;-0.21;< 0.1;2005, 2007, 2009, 2011
+Otud7b;ENSMUST00000090785.3;OTU domain containing 7B;1151;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.21;-0.23;0.49;2007, 2009, 2011
+Pea15a;ENSMUST00000013842.6;phosphoprotein enriched in astrocytes 15A;1608;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.21;-0.21;0.26;2009, 2011
+Tada2b;ENSMUST00000031097.7;transcriptional adaptor 2B;41;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.21;-0.29;0.26;2011
+Atxn1;ENSMUST00000180110.2;ataxin 1;414;Sites in UTR;1;0;1;0;1;0;1;0;6;mmu-miR-212-3p;-0.21;-0.22;0.54;2005, 2007, 2011
+Ndrg4;ENSMUST00000073139.8;N-myc downstream regulated gene 4;79;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.21;-0.21;< 0.1;2005, 2007, 2009, 2011
+Nova1;ENSMUST00000021438.6;neuro-oncological ventral antigen 1;234;Sites in UTR;2;1;0;1;0;0;0;0;3;mmu-miR-212-3p;-0.21;-0.21;0.31;2005, 2007, 2011
+Kdm5b;ENSMUST00000112198.2;lysine (K)-specific demethylase 5B;613;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.21;-0.22;0.56;2007, 2009, 2011
+Caprin1;ENSMUST00000028607.7;cell cycle associated protein 1;733;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;-0.21;-0.32;0.50;2007, 2009, 2011
+Csde1;ENSMUST00000029446.8;cold shock domain containing E1, RNA binding;15186;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.21;-0.21;0.12;2005, 2007, 2009, 2011
+Actr3;ENSMUST00000027579.11;ARP3 actin-related protein 3;344;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.21;-0.21;0.20;2005, 2007, 2009, 2011
+Nr4a2;ENSMUST00000028166.3;nuclear receptor subfamily 4, group A, member 2;59;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.20;-0.22;0.29;2005, 2007
+Lzts3;ENSMUST00000089561.4;leucine zipper, putative tumor suppressor family member 3;158;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.20;-0.20;0.31;2007, 2009, 2011
+Tln2;ENSMUST00000040025.8;talin 2;1162;Sites in UTR;1;1;0;0;1;0;0;1;0;mmu-miR-132-3p;-0.20;-0.20;0.62;2005, 2007, 2009, 2011
+Sephs1;ENSMUST00000027973.8;selenophosphate synthetase 1;2839;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.20;-0.23;0.55;2005, 2007, 2009, 2011
+Ppp2r5c;ENSMUST00000084985.4;protein phosphatase 2, regulatory subunit B', gamma;2646;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.20;-0.20;0.41;2005, 2007, 2009, 2011
+Pcgf3;ENSMUST00000046975.6;polycomb group ring finger 3;636;Sites in UTR;1;0;1;0;1;0;0;1;2;mmu-miR-212-3p;-0.20;-0.30;0.53;2005, 2007
+Tmem151b;ENSMUST00000180252.1;transmembrane protein 151B;21;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.19;-0.19;0.65;2009, 2011
+Setd5;ENSMUST00000042889.6;SET domain containing 5;1573;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.19;-0.19;0.75;2007, 2009, 2011
+Hao1;ENSMUST00000028704.2;hydroxyacid oxidase 1, liver;2886;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.19;-0.19;0.23;2005, 2007, 2009, 2011
+Cited2;ENSMUST00000038107.7;Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 2;1322;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.19;-0.43;0.23;2005, 2007, 2009, 2011
+Hspa12b;ENSMUST00000099349.4;heat shock protein 12B;850;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.19;-0.26;< 0.1;2005, 2007, 2009, 2011
+Rab6b;ENSMUST00000035155.7;RAB6B, member RAS oncogene family;192;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.19;-0.19;0.23;2005, 2007, 2009, 2011
+4932411E22Rik;ENSMUST00000050983.1;RIKEN cDNA 4932411E22 gene;26;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.19;-0.24;0.82;
+Brca1;ENSMUST00000017290.5;breast cancer 1;163;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.19;-0.19;< 0.1;2005, 2007, 2009, 2011
+Foxo3;ENSMUST00000105502.2;forkhead box O3;2275;Sites in UTR;1;1;0;0;1;0;1;0;2;mmu-miR-212-3p;-0.19;-0.19;0.81;2007, 2009, 2011
+Snx29;ENSMUST00000180792.2;sorting nexin 29;158;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.19;-0.21;0.53;
+Rnf24;ENSMUST00000059372.5;ring finger protein 24;141;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.19;-0.19;0.24;2005, 2007, 2009, 2011
+Arhgef9;ENSMUST00000113876.3;CDC42 guanine nucleotide exchange factor (GEF) 9;44;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.19;-0.71;0.48;2005, 2007, 2009, 2011
+Gmfb;ENSMUST00000111817.2;glia maturation factor, beta;1574;Sites in UTR;1;0;0;1;1;0;1;0;1;mmu-miR-132-3p;-0.18;-0.35;0.26;2005, 2007, 2009, 2011
+Arhgef10;ENSMUST00000084207.6;Rho guanine nucleotide exchange factor (GEF) 10;285;Sites in UTR;1;0;0;1;2;0;1;1;0;mmu-miR-212-3p;-0.18;-0.19;0.23;2005, 2007, 2009, 2011
+Proser2;ENSMUST00000054254.6;proline and serine rich 2;147;Sites in UTR;1;1;0;0;1;0;0;1;0;mmu-miR-212-3p;-0.18;-0.41;< 0.1;2009, 2011
+Atp6v1h;ENSMUST00000044369.7;ATPase, H+ transporting, lysosomal V1 subunit H;6824;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-212-3p;-0.18;-0.18;0.23;2007, 2009, 2011
+Arf3;ENSMUST00000053183.9;ADP-ribosylation factor 3;840;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;-0.18;-0.20;0.11;2005, 2007, 2009, 2011
+Scn1a;ENSMUST00000112366.2;sodium channel, voltage-gated, type I, alpha;5;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.18;-0.18;0.17;2007, 2009, 2011
+Adamts5;ENSMUST00000023611.5;a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 5 (aggrecanase-2);857;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.18;-0.21;0.53;2005, 2007, 2009, 2011
+Pde7a;ENSMUST00000099195.4;phosphodiesterase 7A;1238;Sites in UTR;1;0;1;0;1;0;0;1;2;mmu-miR-212-3p;-0.18;-0.24;0.54;2009, 2011
+Smad2;ENSMUST00000168423.2;SMAD family member 2;979;Sites in UTR;1;0;1;0;1;0;0;1;1;mmu-miR-212-3p;-0.18;-0.18;0.30;2005, 2007, 2009, 2011
+Pde7b;ENSMUST00000020165.8;phosphodiesterase 7B;190;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.18;-0.18;0.23;2005, 2007, 2011
+Gucy1a2;ENSMUST00000115733.1;guanylate cyclase 1, soluble, alpha 2;95;Sites in UTR;1;1;0;0;5;0;3;2;1;mmu-miR-212-3p;-0.18;-0.23;< 0.1;2009, 2011
+Eif5a2;ENSMUST00000060500.7;eukaryotic translation initiation factor 5A2;49;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.17;-0.20;0.14;2005, 2007, 2009, 2011
+Dpysl3;ENSMUST00000121805.2;dihydropyrimidinase-like 3;340;Sites in UTR;1;1;0;0;0;0;0;0;2;mmu-miR-212-3p;-0.17;-0.33;0.70;2005, 2007
+Trib2;ENSMUST00000020922.7;tribbles homolog 2 (Drosophila);63;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.17;-0.17;0.23;2005, 2007, 2009, 2011
+Slc31a2;ENSMUST00000084530.3;solute carrier family 31, member 2;293;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.17;-0.23;< 0.1;2005, 2007, 2009, 2011
+Bnc2;ENSMUST00000176612.2;basonuclin 2;291;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.17;-0.17;0.23;2005, 2007, 2009, 2011
+Rab15;ENSMUST00000021459.8;RAB15, member RAS oncogene family;37;Sites in UTR;1;0;1;0;1;0;1;0;0;mmu-miR-132-3p;-0.17;-0.17;0.10;2005, 2007, 2009, 2011
+Smoc2;ENSMUST00000024660.8;SPARC related modular calcium binding 2;2410;Sites in UTR;1;0;1;0;1;0;0;1;2;mmu-miR-212-3p;-0.17;-0.25;0.12;2005, 2007, 2009, 2011
+Zeb2;ENSMUST00000068415.5;zinc finger E-box binding homeobox 2;1218;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.17;-0.18;0.73;2007, 2009, 2011
+Usp15;ENSMUST00000020334.7;ubiquitin specific peptidase 15;1515;Sites in UTR;1;0;0;1;2;0;2;0;2;mmu-miR-212-3p;-0.17;-0.92;0.23;2005, 2007
+Atf2;ENSMUST00000112010.3;activating transcription factor 2;919;Sites in UTR;1;0;1;0;2;0;1;1;2;mmu-miR-212-3p;-0.17;-0.24;0.51;2009, 2011
+Myrf;ENSMUST00000088013.6;myelin regulatory factor;859;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.17;-0.17;0.38;2007, 2011
+Nmnat2;ENSMUST00000043313.9;nicotinamide nucleotide adenylyltransferase 2;122;Sites in UTR;1;0;1;0;1;0;0;1;0;mmu-miR-132-3p;-0.16;-0.18;0.17;2005, 2007, 2009, 2011
+Fem1c;ENSMUST00000036226.5;fem-1 homolog c (C.elegans);303;Sites in UTR;1;0;1;0;2;0;1;1;5;mmu-miR-212-3p;-0.16;-0.24;0.56;2005, 2007
+Grasp;ENSMUST00000000543.4;GRP1 (general receptor for phosphoinositides 1)-associated scaffold protein;440;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.16;-0.16;0.49;2005, 2007, 2009, 2011
+Btaf1;ENSMUST00000099494.3;BTAF1 RNA polymerase II, B-TFIID transcription factor-associated, (Mot1 homolog, S. cerevisiae);878;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.16;-0.19;0.56;2005, 2007, 2009, 2011
+Rfx3;ENSMUST00000165566.2;regulatory factor X, 3 (influences HLA class II expression);75;Sites in UTR;1;0;1;0;1;0;0;1;3;mmu-miR-212-3p;-0.16;-0.16;0.52;2009, 2011
+Foxp2;ENSMUST00000115477.2;forkhead box P2;105;Sites in UTR;1;0;1;0;1;1;0;0;1;mmu-miR-212-3p;-0.16;-0.24;0.50;2009, 2011
+Btbd7;ENSMUST00000045652.6;BTB (POZ) domain containing 7;1023;Sites in UTR;2;0;1;1;0;0;0;0;2;mmu-miR-212-3p;-0.16;-0.18;0.56;2005, 2007
+Sos1;ENSMUST00000068714.5;son of sevenless homolog 1 (Drosophila);547;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.16;-0.16;0.41;2009, 2011
+Papola;ENSMUST00000170002.2;poly (A) polymerase alpha;148;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.15;-0.49;0.52;2005, 2007, 2009, 2011
+Sirt1;ENSMUST00000120239.2;sirtuin 1;909;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.15;-0.16;< 0.1;2005, 2007, 2009, 2011
+Mapkapk2;ENSMUST00000016672.5;MAP kinase-activated protein kinase 2;503;Sites in UTR;1;0;1;0;1;0;0;1;3;mmu-miR-212-3p;-0.15;-0.22;0.13;2005, 2007, 2009, 2011
+Sv2a;ENSMUST00000035371.8;synaptic vesicle glycoprotein 2 a;46;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.15;-0.15;< 0.1;
+Pgm5;ENSMUST00000047666.4;phosphoglucomutase 5;870;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-212-3p;-0.15;-0.17;0.42;2007, 2009, 2011
+Scn2a1;ENSMUST00000028377.8;sodium channel, voltage-gated, type II, alpha 1;7;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.15;-0.15;0.26;2009, 2011
+Htr1b;ENSMUST00000183482.1;5-hydroxytryptamine (serotonin) receptor 1B;64;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.15;-0.17;0.31;
+Spred1;ENSMUST00000028829.7;sprouty protein with EVH-1 domain 1, related sequence;1322;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.15;-0.17;0.70;2005, 2007
+Large;ENSMUST00000119826.2;like-glycosyltransferase;173;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.15;-0.24;0.53;2005, 2007, 2009, 2011
+Chst11;ENSMUST00000040110.7;carbohydrate sulfotransferase 11;48;Sites in UTR;1;0;0;1;1;0;1;0;2;mmu-miR-132-3p;-0.15;-0.27;0.23;2009, 2011
+Sec62;ENSMUST00000029256.7;SEC62 homolog (S. cerevisiae);1364;Sites in UTR;1;0;0;1;2;0;1;1;2;mmu-miR-132-3p;-0.15;-0.17;0.23;2007, 2009, 2011
+Pxn;ENSMUST00000067268.9;paxillin;2142;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.15;-0.15;0.21;2005, 2007, 2009, 2011
+Xpo4;ENSMUST00000174545.2;exportin 4;187;Sites in UTR;1;1;0;0;0;0;0;0;2;mmu-miR-212-3p;-0.15;-0.16;< 0.1;2005, 2007
+Itch;ENSMUST00000029126.9;itchy, E3 ubiquitin protein ligase;147;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.15;-0.16;0.20;2005, 2007, 2009, 2011
+Tle1;ENSMUST00000107337.2;transducin-like enhancer of split 1, homolog of Drosophila E(spl);1244;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.14;-0.14;0.23;
+Fam184a;ENSMUST00000020003.8;family with sequence similarity 184, member A;66;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.14;-0.14;0.19;2007, 2009, 2011
+Hnrnph1;ENSMUST00000109142.2;heterogeneous nuclear ribonucleoprotein H1;25;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.14;-0.18;0.23;2007, 2009, 2011
+Ntng1;ENSMUST00000156177.3;netrin G1;13;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.14;-0.14;0.43;2007, 2009, 2011
+Pld5;ENSMUST00000065967.8;phospholipase D family, member 5;82;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.14;-0.20;< 0.1;2009, 2011
+Grhl2;ENSMUST00000022895.9;grainyhead-like 2 (Drosophila);16;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.14;-0.14;< 0.1;2005, 2007, 2009, 2011
+Spag17;ENSMUST00000164539.1;sperm associated antigen 17;22;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.14;-0.15;ORF;
+Mia3;ENSMUST00000069922.6;melanoma inhibitory activity 3;5;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-132-3p;-0.14;-0.14;0.13;
+Aebp2;ENSMUST00000032359.9;AE binding protein 2;5753;Sites in UTR;1;0;0;1;2;1;0;1;2;mmu-miR-212-3p;-0.14;-0.21;0.23;2005, 2007, 2009, 2011
+Ccdc171;ENSMUST00000053414.7;coiled-coil domain containing 171;42;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.14;-0.18;0.53;
+Taf4b;ENSMUST00000169862.1;TAF4B RNA polymerase II, TATA box binding protein (TBP)-associated factor;226;Sites in UTR;1;1;0;0;1;1;0;0;4;mmu-miR-132-3p;-0.14;-0.20;0.47;2011
+Zfp644;ENSMUST00000112696.2;zinc finger protein 644;601;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.14;-0.14;0.56;2009, 2011
+Mmp16;ENSMUST00000029881.4;matrix metallopeptidase 16;95;Sites in UTR;1;0;1;0;0;0;0;0;6;mmu-miR-132-3p;-0.13;-0.20;0.56;2005, 2007, 2011
+Pik3ip1;ENSMUST00000045153.5;phosphoinositide-3-kinase interacting protein 1;1369;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.13;-0.14;0.23;2007, 2009, 2011
+Ywhag;ENSMUST00000055808.5;tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide;573;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.13;-0.13;0.56;2005, 2007, 2009, 2011
+Meis1;ENSMUST00000068264.8;Meis homeobox 1;223;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-132-3p;-0.13;-0.15;0.23;2005, 2007, 2009, 2011
+Dnajc9;ENSMUST00000022345.6;DnaJ (Hsp40) homolog, subfamily C, member 9;381;Sites in UTR;1;0;1;0;1;0;0;1;2;mmu-miR-132-3p;-0.13;-0.36;0.14;2005, 2007, 2009, 2011
+Hnrnpr;ENSMUST00000148843.4;heterogeneous nuclear ribonucleoprotein R;1645;Sites in UTR;1;0;0;1;0;0;0;0;4;mmu-miR-212-3p;-0.13;-0.15;0.23;2007, 2009, 2011
+Nfib;ENSMUST00000107245.3;nuclear factor I/B;2888;Sites in UTR;1;0;0;1;0;0;0;0;3;mmu-miR-212-3p;-0.13;-0.13;0.23;2007, 2009, 2011
+Rdx;ENSMUST00000163153.2;radixin;9130;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.13;-0.13;0.13;2005, 2007, 2009, 2011
+Zbtb18;ENSMUST00000094276.3;zinc finger and BTB domain containing 18;46;Sites in UTR;1;0;1;0;1;0;0;1;3;mmu-miR-212-3p;-0.12;-0.35;0.48;2007, 2009, 2011
+Desi2;ENSMUST00000027783.8;desumoylating isopeptidase 2;447;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-212-3p;-0.12;-0.19;< 0.1;2007, 2009, 2011
+Srebf1;ENSMUST00000020846.2;sterol regulatory element binding transcription factor 1;1428;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.12;-0.70;0.31;2009, 2011
+Zscan21;ENSMUST00000110961.3;zinc finger and SCAN domain containing 21;1269;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.12;-0.43;< 0.1;2009, 2011
+Dcun1d3;ENSMUST00000059851.7;DCN1, defective in cullin neddylation 1, domain containing 3 (S. cerevisiae);469;Sites in UTR;2;0;1;1;1;0;0;1;3;mmu-miR-132-3p;-0.12;-0.16;0.39;2007, 2009, 2011
+Arid1a;ENSMUST00000145664.3;AT rich interactive domain 1A (SWI-like);73;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.12;-0.12;0.30;2007, 2009, 2011
+Med9;ENSMUST00000081980.6;mediator complex subunit 9;1812;Sites in UTR;1;1;0;0;1;1;0;0;1;mmu-miR-132-3p;-0.12;-0.39;0.17;2005, 2007, 2009, 2011
+C530008M17Rik;ENSMUST00000163347.2;RIKEN cDNA C530008M17 gene;74;Sites in UTR;1;1;0;0;1;0;0;1;1;mmu-miR-212-3p;-0.12;-0.17;0.44;2011
+Crtc1;ENSMUST00000076615.5;CREB regulated transcription coactivator 1;208;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.12;-0.12;0.39;2007, 2009, 2011
+Hmgn3;ENSMUST00000185315.1;high mobility group nucleosomal binding domain 3;119;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-212-3p;-0.12;-0.12;ORF;
+Sec16a;ENSMUST00000114082.3;SEC16 homolog A (S. cerevisiae);488;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.11;-0.14;< 0.1;2007, 2009, 2011
+Bmpr1a;ENSMUST00000165280.2;bone morphogenetic protein receptor, type 1A;1312;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.11;-0.12;0.14;2005, 2007, 2009, 2011
+Fbxw11;ENSMUST00000076383.7;F-box and WD-40 domain protein 11;3387;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.11;-0.12;0.23;2005, 2007, 2009, 2011
+Pom121;ENSMUST00000111171.3;nuclear pore membrane protein 121;794;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.11;-0.11;0.28;2005, 2007, 2009, 2011
+Bbx;ENSMUST00000138166.2;bobby sox homolog (Drosophila);116;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-212-3p;-0.11;-0.22;0.51;2011
+Rad54l2;ENSMUST00000046502.6;RAD54 like 2 (S. cerevisiae);42;Sites in UTR;1;1;0;0;1;0;1;0;0;mmu-miR-212-3p;-0.11;-0.11;< 0.1;2009, 2011
+Nrg2;ENSMUST00000115713.2;neuregulin 2;16;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.11;-0.16;0.34;
+D17Wsu92e;ENSMUST00000114863.3;DNA segment, Chr 17, Wayne State University 92, expressed;163;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.11;-0.15;< 0.1;2009, 2011
+Rapgef5;ENSMUST00000109691.2;Rap guanine nucleotide exchange factor (GEF) 5;1442;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.10;-0.11;0.23;2007
+Hapln1;ENSMUST00000022108.7;hyaluronan and proteoglycan link protein 1;31;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.10;-0.16;0.26;2009, 2011
+Fubp3;ENSMUST00000055244.7;far upstream element (FUSE) binding protein 3;672;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.10;-0.10;0.23;2007, 2009, 2011
+Nkain3;ENSMUST00000119374.2;Na+/K+ transporting ATPase interacting 3;5;Sites in UTR;1;1;0;0;1;0;1;0;4;mmu-miR-132-3p;-0.10;-0.13;< 0.1;2009, 2011
+Plcxd2;ENSMUST00000130481.1;phosphatidylinositol-specific phospholipase C, X domain containing 2;1217;Sites in UTR;1;0;1;0;1;0;0;1;1;mmu-miR-132-3p;-0.10;-0.10;0.13;2009, 2011
+Wdr20;ENSMUST00000095410.2;WD repeat domain 20;192;Sites in UTR;2;2;0;0;2;0;2;0;1;mmu-miR-212-3p;-0.10;-0.45;< 0.1;
+Fbxl20;ENSMUST00000103143.4;F-box and leucine-rich repeat protein 20;170;Sites in UTR;1;1;0;0;2;0;2;0;4;mmu-miR-212-3p;-0.10;-0.21;0.72;2009, 2011
+Dync1li2;ENSMUST00000041769.6;dynein, cytoplasmic 1 light intermediate chain 2;2440;Sites in UTR;1;0;0;1;2;0;2;0;1;mmu-miR-212-3p;-0.09;-0.13;0.23;2007, 2011
+Clock;ENSMUST00000075159.1;circadian locomotor output cycles kaput;748;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.09;-0.13;0.17;
+Creb5;ENSMUST00000047450.7;cAMP responsive element binding protein 5;82;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-212-3p;-0.09;-0.19;0.27;2005, 2007
+Hivep1;ENSMUST00000060148.5;human immunodeficiency virus type I enhancer binding protein 1;1718;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-212-3p;-0.09;-0.10;0.23;2005, 2007, 2009, 2011
+Psmd12;ENSMUST00000021063.7;proteasome (prosome, macropain) 26S subunit, non-ATPase, 12;1708;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.09;-0.37;0.29;2005, 2007, 2009, 2011
+Dach1;ENSMUST00000071533.7;dachshund 1 (Drosophila);304;Sites in UTR;1;0;0;1;1;0;0;1;1;mmu-miR-212-3p;-0.09;-0.09;0.23;2005, 2007, 2009, 2011
+Dixdc1;ENSMUST00000034566.9;DIX domain containing 1;40;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.09;-0.19;< 0.1;2007, 2009, 2011
+Samd12;ENSMUST00000078673.7;sterile alpha motif domain containing 12;126;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.09;-0.09;0.23;
+Gltscr1l;ENSMUST00000040624.5;GLTSCR1-like;257;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.09;-0.09;0.23;2007, 2011
+Syt14;ENSMUST00000016344.7;synaptotagmin XIV;81;Sites in UTR;1;1;0;0;3;1;1;1;3;mmu-miR-212-3p;-0.08;-0.32;0.45;2007
+Gm15737;ENSMUST00000113434.1;predicted gene 15737;10;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.08;-0.08;< 0.1;
+Pam;ENSMUST00000058762.9;peptidylglycine alpha-amidating monooxygenase;3543;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.08;-0.08;0.23;2007, 2009, 2011
+Mamdc2;ENSMUST00000036069.6;MAM domain containing 2;210;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-212-3p;-0.08;-0.08;0.23;2007, 2009, 2011
+Gnb1;ENSMUST00000165335.2;guanine nucleotide binding protein (G protein), beta 1;13026;Sites in UTR;1;0;0;1;1;0;1;0;2;mmu-miR-132-3p;-0.08;-0.30;0.23;2005, 2007, 2009, 2011
+Etnk1;ENSMUST00000032413.4;ethanolamine kinase 1;4276;Sites in UTR;1;0;0;1;1;0;1;0;0;mmu-miR-132-3p;-0.08;-0.08;0.23;2007, 2011
+Asxl2;ENSMUST00000111215.4;additional sex combs like 2 (Drosophila);535;Sites in UTR;1;0;0;1;0;0;0;0;3;mmu-miR-132-3p;-0.08;-0.11;0.23;2009, 2011
+Pten;ENSMUST00000013807.7;phosphatase and tensin homolog;1182;Sites in UTR;3;0;0;3;2;0;1;1;1;mmu-miR-212-3p;-0.08;-0.16;0.54;2007, 2009, 2011
+Pde10a;ENSMUST00000089085.3;phosphodiesterase 10A;67;Sites in UTR;1;0;0;1;1;0;1;0;1;mmu-miR-212-3p;-0.08;-0.09;0.23;2009, 2011
+Ntrk3;ENSMUST00000039431.8;neurotrophic tyrosine kinase, receptor, type 3;19;Sites in UTR;1;1;0;0;2;0;1;1;5;mmu-miR-212-3p;-0.08;-0.12;0.71;
+Dnajc6;ENSMUST00000106930.2;DnaJ (Hsp40) homolog, subfamily C, member 6;55;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-212-3p;-0.08;-0.08;0.23;2005, 2007, 2009, 2011
+Rybp;ENSMUST00000101118.2;RING1 and YY1 binding protein;75;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.08;-0.24;< 0.1;2007, 2009, 2011
+Srsf1;ENSMUST00000079866.5;serine/arginine-rich splicing factor 1;3442;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-212-3p;-0.08;-0.08;0.23;2007, 2009, 2011
+Lsm11;ENSMUST00000129820.2;U7 snRNP-specific Sm-like protein LSM11;369;Sites in UTR;1;1;0;0;0;0;0;0;4;mmu-miR-212-3p;-0.07;-0.25;0.66;2005, 2007, 2009, 2011
+Tcf7l2;ENSMUST00000111656.2;transcription factor 7 like 2, T cell specific, HMG box;1051;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.07;-0.07;0.23;2005, 2007, 2009, 2011
+Sox11;ENSMUST00000079063.6;SRY (sex determining region Y)-box 11;251;Sites in UTR;1;0;1;0;2;0;0;2;2;mmu-miR-212-3p;-0.07;-0.12;0.31;2005, 2007, 2009, 2011
+Gsk3b;ENSMUST00000023507.7;glycogen synthase kinase 3 beta;944;Sites in UTR;1;0;0;1;1;0;0;1;1;mmu-miR-132-3p;-0.07;-0.08;0.23;2009, 2011
+Satb2;ENSMUST00000042857.8;special AT-rich sequence binding protein 2;205;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.07;-0.07;0.23;2005, 2007, 2009, 2011
+Sesn3;ENSMUST00000034507.7;sestrin 3;3314;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-212-3p;-0.07;-0.07;0.23;
+Pax7;ENSMUST00000030508.8;paired box 7;9;Sites in UTR;1;0;0;1;1;0;1;0;1;mmu-miR-132-3p;-0.07;-0.07;0.23;2009, 2011
+Unkl;ENSMUST00000039734.6;unkempt-like (Drosophila);42;Sites in UTR;1;0;0;1;1;0;1;0;1;mmu-miR-212-3p;-0.07;-0.07;0.23;2009, 2011
+Sec24a;ENSMUST00000109097.3;Sec24 related gene family, member A (S. cerevisiae);895;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-212-3p;-0.07;-0.26;0.22;2007, 2009, 2011
+Gnb4;ENSMUST00000155737.2;guanine nucleotide binding protein (G protein), beta 4;442;Sites in UTR;1;1;0;0;0;0;0;0;4;mmu-miR-212-3p;-0.07;-0.22;< 0.1;2005, 2007, 2009, 2011
+Arhgap21;ENSMUST00000114594.2;Rho GTPase activating protein 21;2173;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.06;-0.06;0.23;2005, 2007, 2009, 2011
+Galnt13;ENSMUST00000112636.2;UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 13;109;Sites in UTR;1;0;0;1;1;0;0;1;4;mmu-miR-132-3p;-0.06;-0.07;0.23;2005, 2007, 2009, 2011
+Bicd1;ENSMUST00000086829.5;bicaudal D homolog 1 (Drosophila);134;Sites in UTR;1;1;0;0;3;0;0;3;4;mmu-miR-132-3p;-0.06;-0.13;0.68;2009, 2011
+Bmp2;ENSMUST00000028836.6;bone morphogenetic protein 2;131;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.06;-0.06;0.23;2007, 2009, 2011
+Prickle2;ENSMUST00000032093.6;prickle homolog 2 (Drosophila);175;Sites in UTR;1;0;1;0;1;0;1;0;3;mmu-miR-132-3p;-0.06;-0.07;0.11;2005, 2007, 2009, 2011
+Cerk;ENSMUST00000044332.10;ceramide kinase;92;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.06;-0.09;< 0.1;2007, 2009, 2011
+Homer2;ENSMUST00000026922.8;homer homolog 2 (Drosophila);285;Sites in UTR;1;0;0;1;5;0;1;4;2;mmu-miR-212-3p;-0.06;-0.18;0.23;2011
+Lrrc58;ENSMUST00000078717.6;leucine rich repeat containing 58;92;Sites in UTR;1;0;1;0;1;1;0;0;0;mmu-miR-132-3p;-0.06;-0.26;0.41;2009, 2011
+Hic2;ENSMUST00000090190.6;hypermethylated in cancer 2;70;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-212-3p;-0.06;-0.07;0.23;2005, 2007, 2009, 2011
+Zfp395;ENSMUST00000066994.6;zinc finger protein 395;1065;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.06;-0.06;0.23;2009, 2011
+Zfp516;ENSMUST00000171238.2;zinc finger protein 516;333;Sites in UTR;1;1;0;0;0;0;0;0;1;mmu-miR-212-3p;-0.06;-0.09;0.74;2011
+Cpsf6;ENSMUST00000176686.2;cleavage and polyadenylation specific factor 6;7925;Sites in UTR;1;0;1;0;1;0;1;0;5;mmu-miR-132-3p;-0.06;-0.23;0.23;2011
+Kdm7a;ENSMUST00000002305.8;lysine (K)-specific demethylase 7A;770;Sites in UTR;1;1;0;0;1;1;0;0;0;mmu-miR-132-3p;-0.06;-0.06;< 0.1;2007, 2009, 2011
+Ccnt2;ENSMUST00000112570.1;cyclin T2;793;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.06;-0.13;0.23;
+Rnd3;ENSMUST00000154545.1;Rho family GTPase 3;111;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.06;-0.08;0.23;2005, 2007, 2009, 2011
+Myo1b;ENSMUST00000046390.8;myosin IB;753;Sites in UTR;1;0;0;1;2;1;1;0;1;mmu-miR-132-3p;-0.05;-0.10;0.23;2005, 2007, 2009, 2011
+Bmp3;ENSMUST00000031278.4;bone morphogenetic protein 3;134;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;-0.05;-0.22;0.28;2007
+Sox6;ENSMUST00000166877.2;SRY (sex determining region Y)-box 6;594;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-212-3p;-0.05;-0.06;0.47;2007, 2009, 2011
+Stx16;ENSMUST00000087908.4;syntaxin 16;958;Sites in UTR;1;0;0;1;1;0;0;1;2;mmu-miR-132-3p;-0.05;-0.14;0.41;2005, 2007, 2009, 2011
+Rc3h2;ENSMUST00000100143.4;ring finger and CCCH-type zinc finger domains 2;178;Sites in UTR;1;1;0;0;2;0;1;1;2;mmu-miR-212-3p;-0.05;-0.07;< 0.1;2009, 2011
+Tti1;ENSMUST00000029179.5;TELO2 interacting protein 1;76;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.05;-0.05;0.23;2007, 2009, 2011
+Six4;ENSMUST00000043208.7;sine oculis-related homeobox 4;266;Sites in UTR;1;0;0;1;3;0;1;2;2;mmu-miR-132-3p;-0.05;-0.05;0.24;2007, 2009, 2011
+Zbtb34;ENSMUST00000113158.2;zinc finger and BTB domain containing 34;575;Sites in UTR;1;1;0;0;1;0;0;1;2;mmu-miR-132-3p;-0.05;-0.05;0.72;2009, 2011
+Sall1;ENSMUST00000034090.6;sal-like 1 (Drosophila);668;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.05;-0.27;0.72;2007, 2009, 2011
+Prrt2;ENSMUST00000159916.1;proline-rich transmembrane protein 2;9;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.05;-0.05;0.14;2007, 2009, 2011
+Rnf152;ENSMUST00000058688.6;ring finger protein 152;313;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.05;-0.05;0.23;2011
+2810004N23Rik;ENSMUST00000034465.7;RIKEN cDNA 2810004N23 gene;124;Sites in UTR;1;1;0;0;2;0;1;1;0;mmu-miR-132-3p;-0.05;-0.43;< 0.1;
+Tacc2;ENSMUST00000059145.8;transforming, acidic coiled-coil containing protein 2;890;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-132-3p;-0.04;-0.29;0.17;
+Fbxw7;ENSMUST00000107679.2;F-box and WD-40 domain protein 7;536;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.04;-0.06;0.23;2007, 2011
+Tmem178b;ENSMUST00000061740.7;transmembrane protein 178B;8;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.04;-0.11;0.14;
+Ahsa2;ENSMUST00000109539.2;AHA1, activator of heat shock protein ATPase 2;1274;Sites in UTR;1;0;1;0;0;0;0;0;2;mmu-miR-132-3p;-0.04;-0.21;< 0.1;2009
+Fam160a2;ENSMUST00000179474.2;family with sequence similarity 160, member A2;112;Sites in UTR;1;0;1;0;3;0;2;1;5;mmu-miR-132-3p;-0.04;-0.07;< 0.1;
+Srgap3;ENSMUST00000088373.5;SLIT-ROBO Rho GTPase activating protein 3;81;Sites in UTR;1;0;0;1;1;0;1;0;2;mmu-miR-132-3p;-0.04;-0.11;0.25;2005, 2007, 2009, 2011
+Hsbp1;ENSMUST00000034300.6;heat shock factor binding protein 1;4447;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.04;-0.22;< 0.1;2005, 2007, 2009, 2011
+Map3k12;ENSMUST00000023812.3;mitogen-activated protein kinase kinase kinase 12;1278;Sites in UTR;1;0;1;0;1;0;0;1;1;mmu-miR-132-3p;-0.04;-0.16;0.55;2005, 2007, 2009, 2011
+Skap2;ENSMUST00000078214.5;src family associated phosphoprotein 2;627;Sites in UTR;1;0;0;1;1;0;0;1;3;mmu-miR-212-3p;-0.04;-0.07;0.23;2007
+Ago1;ENSMUST00000097888.4;argonaute RISC catalytic subunit 1;460;Sites in UTR;1;0;1;0;2;0;0;2;2;mmu-miR-132-3p;-0.04;-0.04;0.18;2007, 2011
+Clmn;ENSMUST00000109937.2;calmin;584;Sites in UTR;1;0;1;0;2;0;1;1;2;mmu-miR-212-3p;-0.04;-0.22;0.34;2009, 2011
+Tmem2;ENSMUST00000096194.3;transmembrane protein 2;778;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.04;-0.04;0.23;2005, 2007, 2009, 2011
+Cpeb4;ENSMUST00000109412.3;cytoplasmic polyadenylation element binding protein 4;4130;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.04;-0.04;0.23;2005, 2007
+Fgd4;ENSMUST00000161861.2;FYVE, RhoGEF and PH domain containing 4;46;Sites in UTR;1;1;0;0;0;0;0;0;4;mmu-miR-212-3p;-0.04;-0.27;0.16;
+Ccr10;ENSMUST00000062759.3;chemokine (C-C motif) receptor 10;18;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.03;-0.12;0.23;2009, 2011
+Mtf1;ENSMUST00000030723.2;metal response element binding transcription factor 1;419;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;-0.03;-0.04;< 0.1;2007, 2009, 2011
+Kat7;ENSMUST00000092766.6;K(lysine) acetyltransferase 7;170;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.03;-0.04;0.23;2007, 2009, 2011
+2210018M11Rik;ENSMUST00000038359.4;RIKEN cDNA 2210018M11 gene;780;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.03;-0.12;0.22;
+Mecom;ENSMUST00000166001.2;MDS1 and EVI1 complex locus;41;Sites in UTR;1;0;0;1;0;0;0;0;3;mmu-miR-212-3p;-0.03;-0.04;0.23;2011
+Rtf1;ENSMUST00000028767.8;Rtf1, Paf1/RNA polymerase II complex component, homolog (S. cerevisiae);1126;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;-0.03;-0.27;< 0.1;2005, 2007, 2009, 2011
+Rorb;ENSMUST00000040153.9;RAR-related orphan receptor beta;5;Sites in UTR;2;0;0;2;0;0;0;0;2;mmu-miR-212-3p;-0.03;-0.03;0.41;2011
+B3gat2;ENSMUST00000063663.5;beta-1,3-glucuronyltransferase 2 (glucuronosyltransferase S);297;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.03;-0.05;0.23;2009, 2011
+N4bp2l2;ENSMUST00000118316.2;NEDD4 binding protein 2-like 2;1275;Sites in UTR;1;1;0;0;1;0;0;1;2;mmu-miR-132-3p;-0.03;-0.16;< 0.1;2009, 2011
+Ago2;ENSMUST00000044113.10;argonaute RISC catalytic subunit 2;1138;Sites in UTR;2;0;1;1;1;0;0;1;1;mmu-miR-132-3p;-0.03;-0.05;0.47;2007, 2011
+Tspan18;ENSMUST00000111265.3;tetraspanin 18;44;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.03;-0.25;0.36;
+Armc1;ENSMUST00000029125.8;armadillo repeat containing 1;328;Sites in UTR;1;0;0;1;0;0;0;0;3;mmu-miR-132-3p;-0.03;-0.13;0.23;2005, 2007, 2009, 2011
+Cdk19;ENSMUST00000044672.5;cyclin-dependent kinase 19;686;Sites in UTR;1;0;0;1;2;0;1;1;0;mmu-miR-132-3p;-0.03;-0.04;0.23;2007, 2009, 2011
+Kcnma1;ENSMUST00000074983.7;potassium large conductance calcium-activated channel, subfamily M, alpha member 1;32;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.03;-0.26;< 0.1;2005, 2007
+Sfpq;ENSMUST00000030623.7;splicing factor proline/glutamine rich (polypyrimidine tract binding protein associated);6136;Sites in UTR;1;1;0;0;1;0;0;1;4;mmu-miR-132-3p;-0.03;-0.23;0.22;2011
+Colq;ENSMUST00000112027.3;collagen-like tail subunit (single strand of homotrimer) of asymmetric acetylcholinesterase;114;Sites in UTR;1;0;0;1;0;0;0;0;4;mmu-miR-132-3p;-0.03;-0.05;0.23;2005, 2007, 2009, 2011
+Ksr2;ENSMUST00000180430.1;kinase suppressor of ras 2;66;Sites in UTR;1;0;1;0;0;0;0;0;4;mmu-miR-132-3p;-0.03;-0.09;0.36;2007
+Fer;ENSMUST00000000129.7;fer (fms/fps related) protein kinase;648;Sites in UTR;1;0;0;1;2;0;2;0;0;mmu-miR-132-3p;-0.03;-0.14;0.23;
+Edil3;ENSMUST00000081769.7;EGF-like repeats and discoidin I-like domains 3;367;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.03;-0.03;0.23;2009, 2011
+Ptch1;ENSMUST00000021921.5;patched homolog 1;4095;Sites in UTR;1;0;0;1;1;0;0;1;0;mmu-miR-212-3p;-0.02;-0.02;0.23;2007
+Tead1;ENSMUST00000059768.11;TEA domain family member 1;731;Sites in UTR;1;0;0;1;1;0;0;1;3;mmu-miR-132-3p;-0.02;-0.02;0.23;2005, 2007, 2011
+Celf2;ENSMUST00000170438.2;CUGBP, Elav-like family member 2;1988;Sites in UTR;1;0;1;0;0;0;0;0;4;mmu-miR-132-3p;-0.02;-0.10;0.12;2007, 2009, 2011
+Slc26a7;ENSMUST00000042221.8;solute carrier family 26, member 7;10;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.02;-0.03;0.23;2007
+Itga9;ENSMUST00000044165.8;integrin alpha 9;429;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.02;-0.02;0.23;2005, 2007, 2009, 2011
+Slc8a1;ENSMUST00000163680.3;solute carrier family 8 (sodium/calcium exchanger), member 1;1757;Sites in UTR;1;0;0;1;2;0;1;1;7;mmu-miR-132-3p;-0.02;-0.06;0.23;2007, 2009, 2011
+Mecp2;ENSMUST00000100750.4;methyl CpG binding protein 2;845;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.02;-0.03;0.64;2005, 2007, 2009, 2011
+Pan3;ENSMUST00000176600.2;PAN3 polyA specific ribonuclease subunit homolog (S. cerevisiae);452;Sites in UTR;1;0;0;1;1;0;0;1;0;mmu-miR-132-3p;-0.02;-0.02;0.41;2005, 2007
+Prr14l;ENSMUST00000120129.3;proline rich 14-like;620;Sites in UTR;1;0;0;1;1;0;0;1;0;mmu-miR-132-3p;-0.02;-0.02;0.23;2009, 2011
+Rbfox1;ENSMUST00000056416.7;RNA binding protein, fox-1 homolog (C. elegans) 1;709;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-212-3p;-0.02;-0.02;0.23;2007, 2009, 2011
+Snx30;ENSMUST00000030080.6;sorting nexin family member 30;277;Sites in UTR;1;0;1;0;0;0;0;0;3;mmu-miR-132-3p;-0.02;-0.02;< 0.1;2009, 2011
+Grk5;ENSMUST00000003313.8;G protein-coupled receptor kinase 5;357;Sites in UTR;1;0;0;1;2;0;1;1;2;mmu-miR-132-3p;-0.02;-0.04;0.23;2007, 2009, 2011
+Slc1a2;ENSMUST00000080210.4;solute carrier family 1 (glial high affinity glutamate transporter), member 2;383;Sites in UTR;1;1;0;0;0;0;0;0;5;mmu-miR-132-3p;-0.02;-0.03;< 0.1;2007, 2011
+Rassf3;ENSMUST00000026902.7;Ras association (RalGDS/AF-6) domain family member 3;1177;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;-0.01;-0.01;0.23;2009, 2011
+Snx18;ENSMUST00000109241.3;sorting nexin 18;82;Sites in UTR;1;0;0;1;0;0;0;0;3;mmu-miR-132-3p;-0.01;-0.04;0.23;2009, 2011
+Nlk;ENSMUST00000142739.2;nemo like kinase;64;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-212-3p;-0.01;-0.06;0.23;2005, 2007, 2009, 2011
+Ltn1;ENSMUST00000039449.7;listerin E3 ubiquitin protein ligase 1;1140;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-212-3p;-0.01;-0.12;< 0.1;2007, 2009, 2011
+Ift81;ENSMUST00000031426.8;intraflagellar transport 81;3410;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;-0.01;-0.27;< 0.1;2009, 2011
+Vti1a;ENSMUST00000095950.2;vesicle transport through interaction with t-SNAREs 1A;693;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.01;-0.04;0.23;2005, 2007
+Dcaf8;ENSMUST00000074144.5;DDB1 and CUL4 associated factor 8;2677;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.01;-0.01;0.23;2007, 2009, 2011
+Bsn;ENSMUST00000035208.8;bassoon;9;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-212-3p;-0.01;-0.01;0.23;2005, 2007, 2009, 2011
+Frmpd4;ENSMUST00000112149.2;FERM and PDZ domain containing 4;5;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.01;-0.01;0.23;2007, 2009, 2011
+Dennd4b;ENSMUST00000129564.2;DENN/MADD domain containing 4B;399;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.01;-0.01;0.23;2009, 2011
+B630005N14Rik;ENSMUST00000045235.5;RIKEN cDNA B630005N14 gene;432;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.01;-0.01;0.23;2009, 2011
+Slco5a1;ENSMUST00000188454.1;solute carrier organic anion transporter family, member 5A1;20;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-132-3p;-0.01;-0.01;0.23;2009, 2011
+Gigyf1;ENSMUST00000031727.7;GRB10 interacting GYF protein 1;621;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;-0.01;-0.01;0.23;2007, 2009, 2011
+Mib1;ENSMUST00000052838.5;mindbomb homolog 1 (Drosophila);2465;Sites in UTR;1;0;0;1;0;0;0;0;3;mmu-miR-132-3p;-0.01;-0.03;0.23;2007
+Med28;ENSMUST00000118833.1;mediator complex subunit 28;7190;Sites in UTR;1;1;0;0;0;0;0;0;2;mmu-miR-212-3p;-0.01;-0.45;< 0.1;2005, 2007, 2009, 2011
+Arfgef2;ENSMUST00000099078.4;ADP-ribosylation factor guanine nucleotide-exchange factor 2 (brefeldin A-inhibited);745;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-132-3p;-0.01;-0.07;0.23;2009, 2011
+Sema6a;ENSMUST00000019791.8;sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A;613;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-212-3p;-0.01;-0.41;0.50;2005, 2007, 2009, 2011
+Zfp292;ENSMUST00000098163.3;zinc finger protein 292;571;Sites in UTR;1;0;0;1;3;0;2;1;8;mmu-miR-132-3p;-0.01;-0.06;0.23;2009, 2011
+Kcmf1;ENSMUST00000068697.8;potassium channel modulatory factor 1;4458;Sites in UTR;1;0;1;0;0;0;0;0;1;mmu-miR-132-3p;-0.01;-0.25;0.50;2009, 2011
+Rcsd1;ENSMUST00000040357.9;RCSD domain containing 1;194;Sites in UTR;1;1;0;0;3;0;3;0;1;mmu-miR-132-3p;-0.01;-0.37;< 0.1;
+Clec9a;ENSMUST00000164513.3;C-type lectin domain family 9, member a;20;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.01;-0.12;0.14;
+Snx11;ENSMUST00000021246.3;sorting nexin 11;875;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;-0.01;-0.26;0.34;2009, 2011
+Prpf38b;ENSMUST00000029480.8;PRP38 pre-mRNA processing factor 38 (yeast) domain containing B;1970;Sites in UTR;1;0;0;1;1;0;0;1;2;mmu-miR-132-3p;-0.01;-0.02;0.23;2005, 2007, 2009, 2011
+Tmem194b;ENSMUST00000165859.2;transmembrane protein 194B;239;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;-0.01;-0.43;0.14;
+Nol7;ENSMUST00000071926.3;nucleolar protein 7;2059;Sites in UTR;1;0;0;1;0;0;0;0;1;mmu-miR-212-3p;0;-0.16;0.23;
+Vmp1;ENSMUST00000018315.4;vacuole membrane protein 1;10953;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;0;-0.26;0.56;2009, 2011
+Kcnn3;ENSMUST00000000811.7;potassium intermediate/small conductance calcium-activated channel, subfamily N, member 3;19;Sites in UTR;1;0;1;0;1;0;0;1;0;mmu-miR-132-3p;0;-0.09;0.22;
+Kif2a;ENSMUST00000022204.10;kinesin family member 2A;2309;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;0;-0.09;0.23;2011
+Tusc1;ENSMUST00000066774.5;tumor suppressor candidate 1;92;Sites in UTR;1;1;0;0;0;0;0;0;0;mmu-miR-132-3p;0;-0.47;< 0.1;2007
+Arid1b;ENSMUST00000115797.3;AT rich interactive domain 1B (SWI-like);424;Sites in UTR;1;1;0;0;1;0;1;0;0;mmu-miR-132-3p;0;-0.12;0.57;2009, 2011
+Mmp15;ENSMUST00000034243.5;matrix metallopeptidase 15;499;Sites in UTR;1;0;1;0;1;0;1;0;1;mmu-miR-132-3p;0;-0.07;0.55;
+Mina;ENSMUST00000023407.6;myc induced nuclear antigen;499;Sites in UTR;1;0;0;1;0;0;0;0;0;mmu-miR-132-3p;0;-0.02;0.23;2007
+Gmpr;ENSMUST00000000260.7;guanosine monophosphate reductase;1547;Sites in UTR;1;0;0;1;1;0;0;1;0;mmu-miR-132-3p;0;-0.03;0.23;
+Rsu1;ENSMUST00000028059.3;Ras suppressor protein 1;865;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;0;-0.10;0.46;2005, 2007
+Galntl6;ENSMUST00000098757.3;UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 6;5;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-132-3p;0;-0.22;0.11;2011
+Dcc;ENSMUST00000114943.4;deleted in colorectal carcinoma;5;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;0;-0.17;0.56;2009, 2011
+Elfn2;ENSMUST00000088592.4;leucine rich repeat and fibronectin type III, extracellular 2;5;Sites in UTR;1;0;1;0;0;0;0;0;0;mmu-miR-212-3p;0;-0.15;0.53;2007
+Ero1l;ENSMUST00000022378.7;ERO1-like (S. cerevisiae);259;Sites in UTR;1;0;0;1;0;0;0;0;2;mmu-miR-212-3p;0;-0.04;0.23;
+Otud7a;ENSMUST00000058476.8;OTU domain containing 7A;10;Sites in UTR;1;0;0;1;1;0;1;0;5;mmu-miR-132-3p;0;-0.08;0.23;

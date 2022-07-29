@@ -1,0 +1,574 @@
+﻿Target Detail;Target Rank;Target Score;miRNA Name;Gene Symbol;Gene Description
+Details;1;99;mmu-miR-132-3p;Slc6a1;solute carrier family 6 (neurotransmitter transporter, GABA), member 1
+Details;2;98;mmu-miR-132-3p;Sox5;SRY (sex determining region Y)-box 5
+Details;3;98;mmu-miR-132-3p;Cbll1;Casitas B-lineage lymphoma-like 1
+Details;4;98;mmu-miR-132-3p;Rgs7bp;regulator of G-protein signalling 7 binding protein
+Details;5;98;mmu-miR-132-3p;Lipm;lipase, family member M
+Details;6;97;mmu-miR-132-3p;Mex3c;mex3 RNA binding family member C
+Details;7;96;mmu-miR-132-3p;Ccdc71l;coiled-coil domain containing 71 like
+Details;8;96;mmu-miR-132-3p;Nacc2;nucleus accumbens associated 2, BEN and BTB (POZ) domain containing
+Details;9;96;mmu-miR-132-3p;Mycbp2;MYC binding protein 2, E3 ubiquitin protein ligase
+Details;10;96;mmu-miR-132-3p;Rasa1;RAS p21 protein activator 1
+Details;11;96;mmu-miR-132-3p;Osbpl8;oxysterol binding protein-like 8
+Details;12;95;mmu-miR-132-3p;Rras2;related RAS viral (r-ras) oncogene 2
+Details;13;95;mmu-miR-132-3p;Tmem161b;transmembrane protein 161B
+Details;14;95;mmu-miR-132-3p;Hmga2;high mobility group AT-hook 2
+Details;15;95;mmu-miR-132-3p;Brwd1;bromodomain and WD repeat domain containing 1
+Details;16;94;mmu-miR-132-3p;Elmsan1;ELM2 and Myb/SANT-like domain containing 1
+Details;17;94;mmu-miR-132-3p;Fam167a;family with sequence similarity 167, member A
+Details;18;94;mmu-miR-132-3p;Tut4;terminal uridylyl transferase 4
+Details;19;94;mmu-miR-132-3p;Tjap1;tight junction associated protein 1
+Details;20;94;mmu-miR-132-3p;Timm9;translocase of inner mitochondrial membrane 9
+Details;21;94;mmu-miR-132-3p;Ptbp2;polypyrimidine tract binding protein 2
+Details;22;93;mmu-miR-132-3p;Tln2;talin 2
+Details;23;93;mmu-miR-132-3p;Foxp2;forkhead box P2
+Details;24;93;mmu-miR-132-3p;Calu;calumenin
+Details;25;93;mmu-miR-132-3p;Mapk1;mitogen-activated protein kinase 1
+Details;26;93;mmu-miR-132-3p;Lemd3;LEM domain containing 3
+Details;27;92;mmu-miR-132-3p;Nin;ninein
+Details;28;92;mmu-miR-132-3p;Zdhhc20;zinc finger, DHHC domain containing 20
+Details;29;92;mmu-miR-132-3p;Shh;sonic hedgehog
+Details;30;92;mmu-miR-132-3p;Adgre4;adhesion G protein-coupled receptor E4
+Details;31;92;mmu-miR-132-3p;Pramel4;preferentially expressed antigen in melanoma like 4
+Details;32;92;mmu-miR-132-3p;Gm13102;predicted gene 13102
+Details;33;91;mmu-miR-132-3p;Pramel5;preferentially expressed antigen in melanoma like 5
+Details;34;91;mmu-miR-132-3p;Cfap36;cilia and flagella associated protein 36
+Details;35;91;mmu-miR-132-3p;Mef2a;myocyte enhancer factor 2A
+Details;36;91;mmu-miR-132-3p;Ttc14;tetratricopeptide repeat domain 14
+Details;37;91;mmu-miR-132-3p;Dazap2;DAZ associated protein 2
+Details;38;91;mmu-miR-132-3p;Sppl3;signal peptide peptidase 3
+Details;39;91;mmu-miR-132-3p;Fam3c;family with sequence similarity 3, member C
+Details;40;91;mmu-miR-132-3p;Dhx37;DEAH (Asp-Glu-Ala-His) box polypeptide 37
+Details;41;90;mmu-miR-132-3p;Lrrfip1;leucine rich repeat (in FLII) interacting protein 1
+Details;42;90;mmu-miR-132-3p;Dnmt3a;DNA methyltransferase 3A
+Details;43;90;mmu-miR-132-3p;Mia3;melanoma inhibitory activity 3
+Details;44;90;mmu-miR-132-3p;Eif1b;eukaryotic translation initiation factor 1B
+Details;45;90;mmu-miR-132-3p;Ssh2;slingshot protein phosphatase 2
+Details;46;90;mmu-miR-132-3p;Twist1;twist basic helix-loop-helix transcription factor 1
+Details;47;90;mmu-miR-132-3p;Dusp9;dual specificity phosphatase 9
+Details;48;90;mmu-miR-132-3p;Prss46;protease, serine 46
+Details;49;90;mmu-miR-132-3p;Tmeff1;transmembrane protein with EGF-like and two follistatin-like domains 1
+Details;50;89;mmu-miR-132-3p;Sgk3;serum/glucocorticoid regulated kinase 3
+Details;51;89;mmu-miR-132-3p;Dpysl3;dihydropyrimidinase-like 3
+Details;52;89;mmu-miR-132-3p;Zfp516;zinc finger protein 516
+Details;53;89;mmu-miR-132-3p;Cnot10;CCR4-NOT transcription complex, subunit 10
+Details;54;89;mmu-miR-132-3p;Rictor;RPTOR independent companion of MTOR, complex 2
+Details;55;89;mmu-miR-132-3p;Kcna6;potassium voltage-gated channel, shaker-related, subfamily, member 6
+Details;56;89;mmu-miR-132-3p;Sema6a;sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A
+Details;57;89;mmu-miR-132-3p;Med28;mediator complex subunit 28
+Details;58;88;mmu-miR-132-3p;Stx16;syntaxin 16
+Details;59;88;mmu-miR-132-3p;Usp9x;ubiquitin specific peptidase 9, X chromosome
+Details;60;88;mmu-miR-132-3p;Lin28b;lin-28 homolog B (C. elegans)
+Details;61;88;mmu-miR-132-3p;Ehhadh;enoyl-Coenzyme A, hydratase/3-hydroxyacyl Coenzyme A dehydrogenase
+Details;62;88;mmu-miR-132-3p;Grhl2;grainyhead like transcription factor 2
+Details;63;88;mmu-miR-132-3p;Nlk;nemo like kinase
+Details;64;88;mmu-miR-132-3p;Hbegf;heparin-binding EGF-like growth factor
+Details;65;88;mmu-miR-132-3p;Acvr2b;activin receptor IIB
+Details;66;88;mmu-miR-132-3p;Phka1;phosphorylase kinase alpha 1
+Details;67;88;mmu-miR-132-3p;Lsm11;U7 snRNP-specific Sm-like protein LSM11
+Details;68;88;mmu-miR-132-3p;Nrep;neuronal regeneration related protein
+Details;69;87;mmu-miR-132-3p;Btc;betacellulin, epidermal growth factor family member
+Details;70;87;mmu-miR-132-3p;G3bp2;GTPase activating protein (SH3 domain) binding protein 2
+Details;71;87;mmu-miR-132-3p;Rad54l2;RAD54 like 2 (S. cerevisiae)
+Details;72;87;mmu-miR-132-3p;Psip1;PC4 and SFRS1 interacting protein 1
+Details;73;87;mmu-miR-132-3p;Kif26a;kinesin family member 26A
+Details;74;87;mmu-miR-132-3p;Chd1;chromodomain helicase DNA binding protein 1
+Details;75;87;mmu-miR-132-3p;Cc2d1b;coiled-coil and C2 domain containing 1B
+Details;76;87;mmu-miR-132-3p;Gdf5;growth differentiation factor 5
+Details;77;87;mmu-miR-132-3p;Ube2d2a;ubiquitin-conjugating enzyme E2D 2A
+Details;78;87;mmu-miR-132-3p;Fam91a1;family with sequence similarity 91, member A1
+Details;79;87;mmu-miR-132-3p;Emc1;ER membrane protein complex subunit 1
+Details;80;86;mmu-miR-132-3p;Klhl11;kelch-like 11
+Details;81;86;mmu-miR-132-3p;Pcdh10;protocadherin 10
+Details;82;86;mmu-miR-132-3p;Pdzrn4;PDZ domain containing RING finger 4
+Details;83;86;mmu-miR-132-3p;Pnn;pinin
+Details;84;86;mmu-miR-132-3p;Garem1;GRB2 associated regulator of MAPK1 subtype 1
+Details;85;86;mmu-miR-132-3p;Sall1;spalt like transcription factor 1
+Details;86;86;mmu-miR-132-3p;Klf17;Kruppel-like factor 17
+Details;87;86;mmu-miR-132-3p;Bri3;brain protein I3
+Details;88;86;mmu-miR-132-3p;Zfp874b;zinc finger protein 874b
+Details;89;86;mmu-miR-132-3p;Glcci1;glucocorticoid induced transcript 1
+Details;90;85;mmu-miR-132-3p;Atp23;ATP23 metallopeptidase and ATP synthase assembly factor homolog
+Details;91;85;mmu-miR-132-3p;Cldn10;claudin 10
+Details;92;85;mmu-miR-132-3p;Daam1;dishevelled associated activator of morphogenesis 1
+Details;93;85;mmu-miR-132-3p;Kdm7a;lysine (K)-specific demethylase 7A
+Details;94;85;mmu-miR-132-3p;Pom121;nuclear pore membrane protein 121
+Details;95;85;mmu-miR-132-3p;Med9;mediator complex subunit 9
+Details;96;85;mmu-miR-132-3p;Ep300;E1A binding protein p300
+Details;97;85;mmu-miR-132-3p;Tmem164;transmembrane protein 164
+Details;98;85;mmu-miR-132-3p;Rlim;ring finger protein, LIM domain interacting
+Details;99;85;mmu-miR-132-3p;Pigs;phosphatidylinositol glycan anchor biosynthesis, class S
+Details;100;85;mmu-miR-132-3p;Pspc1;paraspeckle protein 1
+Details;101;85;mmu-miR-132-3p;Polr2d;polymerase (RNA) II (DNA directed) polypeptide D
+Details;102;84;mmu-miR-132-3p;Larp4;La ribonucleoprotein domain family, member 4
+Details;103;84;mmu-miR-132-3p;Atxn1;ataxin 1
+Details;104;84;mmu-miR-132-3p;Thsd7a;thrombospondin, type I, domain containing 7A
+Details;105;84;mmu-miR-132-3p;Nfatc2;nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 2
+Details;106;84;mmu-miR-132-3p;Hapln1;hyaluronan and proteoglycan link protein 1
+Details;107;84;mmu-miR-132-3p;Gpatch2l;G patch domain containing 2 like
+Details;108;84;mmu-miR-132-3p;Melk;maternal embryonic leucine zipper kinase
+Details;109;83;mmu-miR-132-3p;Scn7a;sodium channel, voltage-gated, type VII, alpha
+Details;110;83;mmu-miR-132-3p;Ppp2r5e;protein phosphatase 2, regulatory subunit B', epsilon
+Details;111;83;mmu-miR-132-3p;Chmp3;charged multivesicular body protein 3
+Details;112;83;mmu-miR-132-3p;Zfyve1;zinc finger, FYVE domain containing 1
+Details;113;83;mmu-miR-132-3p;Nova1;neuro-oncological ventral antigen 1
+Details;114;83;mmu-miR-132-3p;Zbed5;zinc finger, BED type containing 5
+Details;115;82;mmu-miR-132-3p;Eloc;elongin C
+Details;116;82;mmu-miR-132-3p;Klhl15;kelch-like 15
+Details;117;82;mmu-miR-132-3p;Pdp2;pyruvate dehyrogenase phosphatase catalytic subunit 2
+Details;118;82;mmu-miR-132-3p;Nras;neuroblastoma ras oncogene
+Details;119;82;mmu-miR-132-3p;Dcun1d4;DCN1, defective in cullin neddylation 1, domain containing 4 (S. cerevisiae)
+Details;120;82;mmu-miR-132-3p;Mrpl20;mitochondrial ribosomal protein L20
+Details;121;82;mmu-miR-132-3p;Bclaf1;BCL2-associated transcription factor 1
+Details;122;82;mmu-miR-132-3p;Slco1a1;solute carrier organic anion transporter family, member 1a1
+Details;123;81;mmu-miR-132-3p;Gm12169;predicted gene 12169
+Details;124;81;mmu-miR-132-3p;Magee2;melanoma antigen, family E, 2
+Details;125;81;mmu-miR-132-3p;Cyp2e1;cytochrome P450, family 2, subfamily e, polypeptide 1
+Details;126;81;mmu-miR-132-3p;Dnajb14;DnaJ heat shock protein family (Hsp40) member B14
+Details;127;81;mmu-miR-132-3p;Zfp236;zinc finger protein 236
+Details;128;81;mmu-miR-132-3p;Dixdc1;DIX domain containing 1
+Details;129;81;mmu-miR-132-3p;8030462N17Rik;RIKEN cDNA 8030462N17 gene
+Details;130;81;mmu-miR-132-3p;Adamts5;a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 5 (aggrecanase-2)
+Details;131;81;mmu-miR-132-3p;Lmnb2;lamin B2
+Details;132;81;mmu-miR-132-3p;Slc17a2;solute carrier family 17 (sodium phosphate), member 2
+Details;133;81;mmu-miR-132-3p;Mme;membrane metallo endopeptidase
+Details;134;81;mmu-miR-132-3p;Rbak;RB-associated KRAB zinc finger
+Details;135;80;mmu-miR-132-3p;Dyrk2;dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 2
+Details;136;80;mmu-miR-132-3p;Mex3a;mex3 RNA binding family member A
+Details;137;80;mmu-miR-132-3p;Ppm1g;protein phosphatase 1G (formerly 2C), magnesium-dependent, gamma isoform
+Details;138;80;mmu-miR-132-3p;Foxo3;forkhead box O3
+Details;139;80;mmu-miR-132-3p;Iqschfp;Iqcj and Schip1 fusion protein
+Details;140;80;mmu-miR-132-3p;Tti2;TELO2 interacting protein 2
+Details;141;80;mmu-miR-132-3p;Arl14ep;ADP-ribosylation factor-like 14 effector protein
+Details;142;80;mmu-miR-132-3p;Schip1;schwannomin interacting protein 1
+Details;143;80;mmu-miR-132-3p;Tmem64;transmembrane protein 64
+Details;144;80;mmu-miR-132-3p;Tbc1d30;TBC1 domain family, member 30
+Details;145;79;mmu-miR-132-3p;Rps6kb1;ribosomal protein S6 kinase, polypeptide 1
+Details;146;79;mmu-miR-132-3p;Sap30l;SAP30-like
+Details;147;79;mmu-miR-132-3p;Exoc5;exocyst complex component 5
+Details;148;79;mmu-miR-132-3p;Gm4070;predicted gene 4070
+Details;149;79;mmu-miR-132-3p;Fam171a1;family with sequence similarity 171, member A1
+Details;150;79;mmu-miR-132-3p;Pde7a;phosphodiesterase 7A
+Details;151;79;mmu-miR-132-3p;Gvin1;GTPase, very large interferon inducible 1
+Details;152;79;mmu-miR-132-3p;Castor1;cytosolic arginine sensor for mTORC1 subunit 1
+Details;153;79;mmu-miR-132-3p;Cnih1;cornichon family AMPA receptor auxiliary protein 1
+Details;154;79;mmu-miR-132-3p;Setd5;SET domain containing 5
+Details;155;79;mmu-miR-132-3p;Cemip2;cell migration inducing hyaluronidase 2
+Details;156;79;mmu-miR-132-3p;Rbm27;RNA binding motif protein 27
+Details;157;79;mmu-miR-132-3p;Zfp568;zinc finger protein 568
+Details;158;79;mmu-miR-132-3p;Bicd2;BICD cargo adaptor 2
+Details;159;79;mmu-miR-132-3p;Galntl6;UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 6
+Details;160;79;mmu-miR-132-3p;Zfp697;zinc finger protein 697
+Details;161;79;mmu-miR-132-3p;Gnb1;guanine nucleotide binding protein (G protein), beta 1
+Details;162;79;mmu-miR-132-3p;Eppk1;epiplakin 1
+Details;163;78;mmu-miR-132-3p;Tmem229a;transmembrane protein 229A
+Details;164;78;mmu-miR-132-3p;Myrf;myelin regulatory factor
+Details;165;78;mmu-miR-132-3p;Syt16;synaptotagmin XVI
+Details;166;78;mmu-miR-132-3p;Zfp983;zinc finger protein 983
+Details;167;78;mmu-miR-132-3p;Gpd2;glycerol phosphate dehydrogenase 2, mitochondrial
+Details;168;78;mmu-miR-132-3p;Tmem151b;transmembrane protein 151B
+Details;169;78;mmu-miR-132-3p;Phf20l1;PHD finger protein 20-like 1
+Details;170;78;mmu-miR-132-3p;Sod2;superoxide dismutase 2, mitochondrial
+Details;171;78;mmu-miR-132-3p;Lrrc58;leucine rich repeat containing 58
+Details;172;78;mmu-miR-132-3p;Psma2;proteasome (prosome, macropain) subunit, alpha type 2
+Details;173;78;mmu-miR-132-3p;Trmt10a;tRNA methyltransferase 10A
+Details;174;78;mmu-miR-132-3p;Klf8;Kruppel-like factor 8
+Details;175;78;mmu-miR-132-3p;Armc8;armadillo repeat containing 8
+Details;176;78;mmu-miR-132-3p;Prkd1;protein kinase D1
+Details;177;77;mmu-miR-132-3p;Casd1;CAS1 domain containing 1
+Details;178;77;mmu-miR-132-3p;Frs2;fibroblast growth factor receptor substrate 2
+Details;179;77;mmu-miR-132-3p;Inafm2;InaF motif containing 2
+Details;180;77;mmu-miR-132-3p;Mcidas;multiciliate differentiation and DNA synthesis associated cell cycle protein
+Details;181;77;mmu-miR-132-3p;Hnrnph1;heterogeneous nuclear ribonucleoprotein H1
+Details;182;77;mmu-miR-132-3p;Ston2;stonin 2
+Details;183;77;mmu-miR-132-3p;Grip1;glutamate receptor interacting protein 1
+Details;184;77;mmu-miR-132-3p;Anp32a;acidic (leucine-rich) nuclear phosphoprotein 32 family, member A
+Details;185;77;mmu-miR-132-3p;Rngtt;RNA guanylyltransferase and 5'-phosphatase
+Details;186;77;mmu-miR-132-3p;Ipmk;inositol polyphosphate multikinase
+Details;187;77;mmu-miR-132-3p;Gorasp1;golgi reassembly stacking protein 1
+Details;188;77;mmu-miR-132-3p;Epn2;epsin 2
+Details;189;77;mmu-miR-132-3p;Utrn;utrophin
+Details;190;76;mmu-miR-132-3p;Bcan;brevican
+Details;191;76;mmu-miR-132-3p;Phf12;PHD finger protein 12
+Details;192;76;mmu-miR-132-3p;Dnaja2;DnaJ heat shock protein family (Hsp40) member A2
+Details;193;76;mmu-miR-132-3p;Ddx19b;DEAD (Asp-Glu-Ala-Asp) box polypeptide 19b
+Details;194;76;mmu-miR-132-3p;Zfp362;zinc finger protein 362
+Details;195;76;mmu-miR-132-3p;Dock4;dedicator of cytokinesis 4
+Details;196;76;mmu-miR-132-3p;Xkr4;X-linked Kx blood group related 4
+Details;197;76;mmu-miR-132-3p;Spred1;sprouty protein with EVH-1 domain 1, related sequence
+Details;198;76;mmu-miR-132-3p;Kdm5a;lysine (K)-specific demethylase 5A
+Details;199;76;mmu-miR-132-3p;Krt35;keratin 35
+Details;200;76;mmu-miR-132-3p;Flot1;flotillin 1
+Details;201;75;mmu-miR-132-3p;Ppp2r5c;protein phosphatase 2, regulatory subunit B', gamma
+Details;202;75;mmu-miR-132-3p;2010300C02Rik;RIKEN cDNA 2010300C02 gene
+Details;203;75;mmu-miR-132-3p;Asphd2;aspartate beta-hydroxylase domain containing 2
+Details;204;75;mmu-miR-132-3p;Csde1;cold shock domain containing E1, RNA binding
+Details;205;75;mmu-miR-132-3p;Ltn1;listerin E3 ubiquitin protein ligase 1
+Details;206;75;mmu-miR-132-3p;Cygb;cytoglobin
+Details;207;75;mmu-miR-132-3p;Vapa;vesicle-associated membrane protein, associated protein A
+Details;208;75;mmu-miR-132-3p;Nmnat2;nicotinamide nucleotide adenylyltransferase 2
+Details;209;75;mmu-miR-132-3p;Colq;collagen-like tail subunit (single strand of homotrimer) of asymmetric acetylcholinesterase
+Details;210;75;mmu-miR-132-3p;Scn1a;sodium channel, voltage-gated, type I, alpha
+Details;211;75;mmu-miR-132-3p;Actr2;ARP2 actin-related protein 2
+Details;212;75;mmu-miR-132-3p;Prdm6;PR domain containing 6
+Details;213;75;mmu-miR-132-3p;Ppp2r2a;protein phosphatase 2, regulatory subunit B, alpha
+Details;214;75;mmu-miR-132-3p;Col6a6;collagen, type VI, alpha 6
+Details;215;75;mmu-miR-132-3p;Brca1;breast cancer 1, early onset
+Details;216;74;mmu-miR-132-3p;Eif4a2;eukaryotic translation initiation factor 4A2
+Details;217;74;mmu-miR-132-3p;Kcnk2;potassium channel, subfamily K, member 2
+Details;218;74;mmu-miR-132-3p;Rad52;RAD52 homolog, DNA repair protein
+Details;219;74;mmu-miR-132-3p;Gm13083;predicted gene 13083
+Details;220;74;mmu-miR-132-3p;Arid2;AT rich interactive domain 2 (ARID, RFX-like)
+Details;221;74;mmu-miR-132-3p;Hepacam;hepatocyte cell adhesion molecule
+Details;222;74;mmu-miR-132-3p;Washc4;WASH complex subunit 4
+Details;223;74;mmu-miR-132-3p;Snrpb;small nuclear ribonucleoprotein B
+Details;224;74;mmu-miR-132-3p;Rab36;RAB36, member RAS oncogene family
+Details;225;74;mmu-miR-132-3p;Mecp2;methyl CpG binding protein 2
+Details;226;73;mmu-miR-132-3p;E130308A19Rik;RIKEN cDNA E130308A19 gene
+Details;227;73;mmu-miR-132-3p;Arhgef11;Rho guanine nucleotide exchange factor (GEF) 11
+Details;228;73;mmu-miR-132-3p;Golga4;golgi autoantigen, golgin subfamily a, 4
+Details;229;73;mmu-miR-132-3p;Dcc;deleted in colorectal carcinoma
+Details;230;73;mmu-miR-132-3p;Mtmr4;myotubularin related protein 4
+Details;231;73;mmu-miR-132-3p;Arid1b;AT rich interactive domain 1B (SWI-like)
+Details;232;73;mmu-miR-132-3p;Cmbl;carboxymethylenebutenolidase-like (Pseudomonas)
+Details;233;73;mmu-miR-132-3p;Katnbl1;katanin p80 subunit B like 1
+Details;234;73;mmu-miR-132-3p;Homer1;homer scaffolding protein 1
+Details;235;73;mmu-miR-132-3p;Cercam;cerebral endothelial cell adhesion molecule
+Details;236;73;mmu-miR-132-3p;Cacnb4;calcium channel, voltage-dependent, beta 4 subunit
+Details;237;72;mmu-miR-132-3p;Bmpr1b;bone morphogenetic protein receptor, type 1B
+Details;238;72;mmu-miR-132-3p;Hnrnpm;heterogeneous nuclear ribonucleoprotein M
+Details;239;72;mmu-miR-132-3p;Aph1b;aph1 homolog B, gamma secretase subunit
+Details;240;72;mmu-miR-132-3p;Arhgef40;Rho guanine nucleotide exchange factor (GEF) 40
+Details;241;72;mmu-miR-132-3p;Fam114a2;family with sequence similarity 114, member A2
+Details;242;72;mmu-miR-132-3p;Glrp1;glutamine repeat protein 1
+Details;243;72;mmu-miR-132-3p;Arhgef37;Rho guanine nucleotide exchange factor (GEF) 37
+Details;244;72;mmu-miR-132-3p;Trim2;tripartite motif-containing 2
+Details;245;71;mmu-miR-132-3p;Zbtb34;zinc finger and BTB domain containing 34
+Details;246;71;mmu-miR-132-3p;Tktl2;transketolase-like 2
+Details;247;71;mmu-miR-132-3p;Rpl13a;ribosomal protein L13A
+Details;248;71;mmu-miR-132-3p;Lzts3;leucine zipper, putative tumor suppressor family member 3
+Details;249;71;mmu-miR-132-3p;Wt1;Wilms tumor 1 homolog
+Details;250;71;mmu-miR-132-3p;Ncald;neurocalcin delta
+Details;251;71;mmu-miR-132-3p;Lgi4;leucine-rich repeat LGI family, member 4
+Details;252;71;mmu-miR-132-3p;Cldn1;claudin 1
+Details;253;71;mmu-miR-132-3p;Tpp1;tripeptidyl peptidase I
+Details;254;70;mmu-miR-132-3p;Zfx;zinc finger protein X-linked
+Details;255;70;mmu-miR-132-3p;Dmrta1;doublesex and mab-3 related transcription factor like family A1
+Details;256;70;mmu-miR-132-3p;Sub1;SUB1 homolog (S. cerevisiae)
+Details;257;70;mmu-miR-132-3p;Clmn;calmin
+Details;258;70;mmu-miR-132-3p;Proser2;proline and serine rich 2
+Details;259;70;mmu-miR-132-3p;Plekha1;pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 1
+Details;260;70;mmu-miR-132-3p;Slco5a1;solute carrier organic anion transporter family, member 5A1
+Details;261;70;mmu-miR-132-3p;Cct8;chaperonin containing Tcp1, subunit 8 (theta)
+Details;262;70;mmu-miR-132-3p;Cnr1;cannabinoid receptor 1 (brain)
+Details;263;70;mmu-miR-132-3p;Zeb2;zinc finger E-box binding homeobox 2
+Details;264;70;mmu-miR-132-3p;Adcyap1;adenylate cyclase activating polypeptide 1
+Details;265;70;mmu-miR-132-3p;Sirt1;sirtuin 1
+Details;266;69;mmu-miR-132-3p;Dbndd1;dysbindin (dystrobrevin binding protein 1) domain containing 1
+Details;267;69;mmu-miR-132-3p;Spink12;serine peptidase inhibitor, Kazal type 12
+Details;268;69;mmu-miR-132-3p;Uba3;ubiquitin-like modifier activating enzyme 3
+Details;269;69;mmu-miR-132-3p;Tmtc1;transmembrane and tetratricopeptide repeat containing 1
+Details;270;69;mmu-miR-132-3p;Gtf2h1;general transcription factor II H, polypeptide 1
+Details;271;69;mmu-miR-132-3p;Kynu;kynureninase
+Details;272;69;mmu-miR-132-3p;Sms;spermine synthase
+Details;273;69;mmu-miR-132-3p;Dach1;dachshund family transcription factor 1
+Details;274;69;mmu-miR-132-3p;Cdk19;cyclin-dependent kinase 19
+Details;275;69;mmu-miR-132-3p;Foxa1;forkhead box A1
+Details;276;69;mmu-miR-132-3p;Chd1l;chromodomain helicase DNA binding protein 1-like
+Details;277;69;mmu-miR-132-3p;Cblb;Casitas B-lineage lymphoma b
+Details;278;69;mmu-miR-132-3p;2310022A10Rik;RIKEN cDNA 2310022A10 gene
+Details;279;69;mmu-miR-132-3p;Elf1;E74-like factor 1
+Details;280;69;mmu-miR-132-3p;Ahr;aryl-hydrocarbon receptor
+Details;281;69;mmu-miR-132-3p;Ttc24;tetratricopeptide repeat domain 24
+Details;282;68;mmu-miR-132-3p;Bicd1;BICD cargo adaptor 1
+Details;283;68;mmu-miR-132-3p;Bicral;BRD4 interacting chromatin remodeling complex associated protein like
+Details;284;68;mmu-miR-132-3p;Olfm1;olfactomedin 1
+Details;285;68;mmu-miR-132-3p;Vcan;versican
+Details;286;68;mmu-miR-132-3p;Hkdc1;hexokinase domain containing 1
+Details;287;68;mmu-miR-132-3p;Sec62;SEC62 homolog (S. cerevisiae)
+Details;288;68;mmu-miR-132-3p;Rab8b;RAB8B, member RAS oncogene family
+Details;289;68;mmu-miR-132-3p;Adamts6;a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 6
+Details;290;68;mmu-miR-132-3p;Gnb4;guanine nucleotide binding protein (G protein), beta 4
+Details;291;68;mmu-miR-132-3p;Ddx60;DEAD (Asp-Glu-Ala-Asp) box polypeptide 60
+Details;292;67;mmu-miR-132-3p;Tmem79;transmembrane protein 79
+Details;293;67;mmu-miR-132-3p;Rala;v-ral simian leukemia viral oncogene A (ras related)
+Details;294;67;mmu-miR-132-3p;Ispd;isoprenoid synthase domain containing
+Details;295;67;mmu-miR-132-3p;Rdx;radixin
+Details;296;67;mmu-miR-132-3p;Spty2d1;SPT2, Suppressor of Ty, domain containing 1 (S. cerevisiae)
+Details;297;67;mmu-miR-132-3p;Sema4g;sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4G
+Details;298;67;mmu-miR-132-3p;Caprin1;cell cycle associated protein 1
+Details;299;67;mmu-miR-132-3p;Kbtbd13;kelch repeat and BTB (POZ) domain containing 13
+Details;300;67;mmu-miR-132-3p;Amd1;S-adenosylmethionine decarboxylase 1
+Details;301;67;mmu-miR-132-3p;Tent4b;terminal nucleotidyltransferase 4B
+Details;302;67;mmu-miR-132-3p;Zcchc14;zinc finger, CCHC domain containing 14
+Details;303;67;mmu-miR-132-3p;Arhgap21;Rho GTPase activating protein 21
+Details;304;66;mmu-miR-132-3p;Tpgs2;tubulin polyglutamylase complex subunit 2
+Details;305;66;mmu-miR-132-3p;Pprc1;peroxisome proliferative activated receptor, gamma, coactivator-related 1
+Details;306;66;mmu-miR-132-3p;Jpt1;Jupiter microtubule associated homolog 1
+Details;307;66;mmu-miR-132-3p;Slc30a6;solute carrier family 30 (zinc transporter), member 6
+Details;308;66;mmu-miR-132-3p;Spata13;spermatogenesis associated 13
+Details;309;66;mmu-miR-132-3p;Cacna1c;calcium channel, voltage-dependent, L type, alpha 1C subunit
+Details;310;66;mmu-miR-132-3p;Tnfrsf11b;tumor necrosis factor receptor superfamily, member 11b (osteoprotegerin)
+Details;311;66;mmu-miR-132-3p;Med13;mediator complex subunit 13
+Details;312;66;mmu-miR-132-3p;Lipo1;lipase, member O1
+Details;313;66;mmu-miR-132-3p;Adamts15;a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 15
+Details;314;66;mmu-miR-132-3p;Gm8978;predicted gene 8978
+Details;315;66;mmu-miR-132-3p;Kirrel;kirre like nephrin family adhesion molecule 1
+Details;316;66;mmu-miR-132-3p;Pten;phosphatase and tensin homolog
+Details;317;65;mmu-miR-132-3p;Fbxl20;F-box and leucine-rich repeat protein 20
+Details;318;65;mmu-miR-132-3p;Dnaaf3;dynein, axonemal assembly factor 3
+Details;319;65;mmu-miR-132-3p;Gnrhr;gonadotropin releasing hormone receptor
+Details;320;65;mmu-miR-132-3p;Ccdc93;coiled-coil domain containing 93
+Details;321;65;mmu-miR-132-3p;Sox11;SRY (sex determining region Y)-box 11
+Details;322;65;mmu-miR-132-3p;Tchh;trichohyalin
+Details;323;65;mmu-miR-132-3p;Vdac2;voltage-dependent anion channel 2
+Details;324;65;mmu-miR-132-3p;Prr15l;proline rich 15-like
+Details;325;65;mmu-miR-132-3p;Lin9;lin-9 homolog (C. elegans)
+Details;326;64;mmu-miR-132-3p;Cd164;CD164 antigen
+Details;327;64;mmu-miR-132-3p;Taf4;TATA-box binding protein associated factor 4
+Details;328;64;mmu-miR-132-3p;Zfp644;zinc finger protein 644
+Details;329;64;mmu-miR-132-3p;Rassf3;Ras association (RalGDS/AF-6) domain family member 3
+Details;330;64;mmu-miR-132-3p;Pcdh15;protocadherin 15
+Details;331;64;mmu-miR-132-3p;Gucy1a2;guanylate cyclase 1, soluble, alpha 2
+Details;332;64;mmu-miR-132-3p;Cdk13;cyclin-dependent kinase 13
+Details;333;64;mmu-miR-132-3p;Dcun1d1;DCN1, defective in cullin neddylation 1, domain containing 1 (S. cerevisiae)
+Details;334;64;mmu-miR-132-3p;Parpbp;PARP1 binding protein
+Details;335;64;mmu-miR-132-3p;Rnd3;Rho family GTPase 3
+Details;336;64;mmu-miR-132-3p;Atl3;atlastin GTPase 3
+Details;337;64;mmu-miR-132-3p;C9orf72;C9orf72, member of C9orf72-SMCR8 complex
+Details;338;64;mmu-miR-132-3p;Fkbp6;FK506 binding protein 6
+Details;339;64;mmu-miR-132-3p;Sh3rf2;SH3 domain containing ring finger 2
+Details;340;64;mmu-miR-132-3p;Cd3e;CD3 antigen, epsilon polypeptide
+Details;341;64;mmu-miR-132-3p;Pfn2;profilin 2
+Details;342;64;mmu-miR-132-3p;Cdc40;cell division cycle 40
+Details;343;63;mmu-miR-132-3p;Cpsf6;cleavage and polyadenylation specific factor 6
+Details;344;63;mmu-miR-132-3p;Paip2;polyadenylate-binding protein-interacting protein 2
+Details;345;63;mmu-miR-132-3p;Fam84b;family with sequence similarity 84, member B
+Details;346;63;mmu-miR-132-3p;Ush1g;USH1 protein network component sans
+Details;347;63;mmu-miR-132-3p;Spin4;spindlin family, member 4
+Details;348;63;mmu-miR-132-3p;Sec16a;SEC16 homolog A, endoplasmic reticulum export factor
+Details;349;63;mmu-miR-132-3p;Fam76b;family with sequence similarity 76, member B
+Details;350;63;mmu-miR-132-3p;Fam169a;family with sequence similarity 169, member A
+Details;351;63;mmu-miR-132-3p;Lnpep;leucyl/cystinyl aminopeptidase
+Details;352;63;mmu-miR-132-3p;Sf3b1;splicing factor 3b, subunit 1
+Details;353;63;mmu-miR-132-3p;Zc3h12d;zinc finger CCCH type containing 12D
+Details;354;63;mmu-miR-132-3p;Igf2bp1;insulin-like growth factor 2 mRNA binding protein 1
+Details;355;63;mmu-miR-132-3p;Wrb;tryptophan rich basic protein
+Details;356;63;mmu-miR-132-3p;Tmod2;tropomodulin 2
+Details;357;63;mmu-miR-132-3p;Pacrg;PARK2 co-regulated
+Details;358;63;mmu-miR-132-3p;Rhpn2;rhophilin, Rho GTPase binding protein 2
+Details;359;63;mmu-miR-132-3p;Mob4;MOB family member 4, phocein
+Details;360;62;mmu-miR-132-3p;Rgs14;regulator of G-protein signaling 14
+Details;361;62;mmu-miR-132-3p;Zyx;zyxin
+Details;362;62;mmu-miR-132-3p;Hephl1;hephaestin-like 1
+Details;363;62;mmu-miR-132-3p;Dusp11;dual specificity phosphatase 11 (RNA/RNP complex 1-interacting)
+Details;364;62;mmu-miR-132-3p;Adcy3;adenylate cyclase 3
+Details;365;62;mmu-miR-132-3p;Myo9a;myosin IXa
+Details;366;62;mmu-miR-132-3p;Dennd1b;DENN/MADD domain containing 1B
+Details;367;62;mmu-miR-132-3p;Amd2;S-adenosylmethionine decarboxylase 2
+Details;368;62;mmu-miR-132-3p;Slk;STE20-like kinase
+Details;369;62;mmu-miR-132-3p;Rap1gds1;RAP1, GTP-GDP dissociation stimulator 1
+Details;370;62;mmu-miR-132-3p;Brap;BRCA1 associated protein
+Details;371;62;mmu-miR-132-3p;C1ql1;complement component 1, q subcomponent-like 1
+Details;372;62;mmu-miR-132-3p;Stag1;stromal antigen 1
+Details;373;61;mmu-miR-132-3p;Tspan12;tetraspanin 12
+Details;374;61;mmu-miR-132-3p;Trmt11;tRNA methyltransferase 11
+Details;375;61;mmu-miR-132-3p;Aebp2;AE binding protein 2
+Details;376;61;mmu-miR-132-3p;Twistnb;twist basic helix-loop-helix transcription factor 1 neighbor
+Details;377;61;mmu-miR-132-3p;Ahsa2;AHA1, activator of heat shock protein ATPase 2
+Details;378;61;mmu-miR-132-3p;Hmgxb4;HMG box domain containing 4
+Details;379;61;mmu-miR-132-3p;Scn9a;sodium channel, voltage-gated, type IX, alpha
+Details;380;61;mmu-miR-132-3p;Creg2;cellular repressor of E1A-stimulated genes 2
+Details;381;61;mmu-miR-132-3p;Tut7;terminal uridylyl transferase 7
+Details;382;61;mmu-miR-132-3p;Mtf2;metal response element binding transcription factor 2
+Details;383;60;mmu-miR-132-3p;Lrrc72;leucine rich repeat containing 72
+Details;384;60;mmu-miR-132-3p;Tspyl5;testis-specific protein, Y-encoded-like 5
+Details;385;60;mmu-miR-132-3p;Tfdp1;transcription factor Dp 1
+Details;386;60;mmu-miR-132-3p;Pik3r1;phosphoinositide-3-kinase regulatory subunit 1
+Details;387;60;mmu-miR-132-3p;Trib2;tribbles pseudokinase 2
+Details;388;60;mmu-miR-132-3p;Kcnj12;potassium inwardly-rectifying channel, subfamily J, member 12
+Details;389;60;mmu-miR-132-3p;AY761185;cDNA sequence AY761185
+Details;390;60;mmu-miR-132-3p;Tmem169;transmembrane protein 169
+Details;391;60;mmu-miR-132-3p;Ndrg4;N-myc downstream regulated gene 4
+Details;392;60;mmu-miR-132-3p;Eif1ax;eukaryotic translation initiation factor 1A, X-linked
+Details;393;60;mmu-miR-132-3p;Pkib;protein kinase inhibitor beta, cAMP dependent, testis specific
+Details;394;60;mmu-miR-132-3p;Gad1;glutamate decarboxylase 1
+Details;395;60;mmu-miR-132-3p;Spdya;speedy/RINGO cell cycle regulator family, member A
+Details;396;60;mmu-miR-132-3p;Crtc1;CREB regulated transcription coactivator 1
+Details;397;59;mmu-miR-132-3p;Plagl2;pleiomorphic adenoma gene-like 2
+Details;398;59;mmu-miR-132-3p;Kdm5c;lysine (K)-specific demethylase 5C
+Details;399;59;mmu-miR-132-3p;Fbxw7;F-box and WD-40 domain protein 7
+Details;400;59;mmu-miR-132-3p;Hpgds;hematopoietic prostaglandin D synthase
+Details;401;59;mmu-miR-132-3p;Nckap5;NCK-associated protein 5
+Details;402;59;mmu-miR-132-3p;Dcdc2a;doublecortin domain containing 2a
+Details;403;59;mmu-miR-132-3p;Bnc2;basonuclin 2
+Details;404;59;mmu-miR-132-3p;Hunk;hormonally upregulated Neu-associated kinase
+Details;405;59;mmu-miR-132-3p;Ipo9;importin 9
+Details;406;59;mmu-miR-132-3p;Cdc42ep4;CDC42 effector protein (Rho GTPase binding) 4
+Details;407;59;mmu-miR-132-3p;Hdac3;histone deacetylase 3
+Details;408;59;mmu-miR-132-3p;Vps9d1;VPS9 domain containing 1
+Details;409;59;mmu-miR-132-3p;Sipa1l2;signal-induced proliferation-associated 1 like 2
+Details;410;59;mmu-miR-132-3p;Rpl7l1;ribosomal protein L7-like 1
+Details;411;59;mmu-miR-132-3p;Cntln;centlein, centrosomal protein
+Details;412;59;mmu-miR-132-3p;Zim1;zinc finger, imprinted 1
+Details;413;59;mmu-miR-132-3p;Rasgrp3;RAS, guanyl releasing protein 3
+Details;414;58;mmu-miR-132-3p;Rab6b;RAB6B, member RAS oncogene family
+Details;415;58;mmu-miR-132-3p;Pus10;pseudouridylate synthase 10
+Details;416;58;mmu-miR-132-3p;Abcc4;ATP-binding cassette, sub-family C (CFTR/MRP), member 4
+Details;417;58;mmu-miR-132-3p;Hivep1;human immunodeficiency virus type I enhancer binding protein 1
+Details;418;58;mmu-miR-132-3p;Elavl4;ELAV like RNA binding protein 4
+Details;419;58;mmu-miR-132-3p;Olfr613;olfactory receptor 613
+Details;420;58;mmu-miR-132-3p;Prag1;PEAK1 related kinase activating pseudokinase 1
+Details;421;58;mmu-miR-132-3p;Ints8;integrator complex subunit 8
+Details;422;58;mmu-miR-132-3p;Smyd1;SET and MYND domain containing 1
+Details;423;58;mmu-miR-132-3p;Flrt3;fibronectin leucine rich transmembrane protein 3
+Details;424;58;mmu-miR-132-3p;Zhx1;zinc fingers and homeoboxes 1
+Details;425;58;mmu-miR-132-3p;Qk;quaking
+Details;426;58;mmu-miR-132-3p;Rnf185;ring finger protein 185
+Details;427;58;mmu-miR-132-3p;Tm4sf1;transmembrane 4 superfamily member 1
+Details;428;58;mmu-miR-132-3p;Plxnd1;plexin D1
+Details;429;57;mmu-miR-132-3p;Mafk;v-maf musculoaponeurotic fibrosarcoma oncogene family, protein K (avian)
+Details;430;57;mmu-miR-132-3p;Six4;sine oculis-related homeobox 4
+Details;431;57;mmu-miR-132-3p;Tmem168;transmembrane protein 168
+Details;432;57;mmu-miR-132-3p;Sos1;SOS Ras/Rac guanine nucleotide exchange factor 1
+Details;433;57;mmu-miR-132-3p;Rfc1;replication factor C (activator 1) 1
+Details;434;57;mmu-miR-132-3p;Bmpr1a;bone morphogenetic protein receptor, type 1A
+Details;435;57;mmu-miR-132-3p;Wrn;Werner syndrome RecQ like helicase
+Details;436;57;mmu-miR-132-3p;Itch;itchy, E3 ubiquitin protein ligase
+Details;437;57;mmu-miR-132-3p;Smim8;small integral membrane protein 8
+Details;438;57;mmu-miR-132-3p;Rbpj;recombination signal binding protein for immunoglobulin kappa J region
+Details;439;57;mmu-miR-132-3p;Wdfy1;WD repeat and FYVE domain containing 1
+Details;440;57;mmu-miR-132-3p;Rbm26;RNA binding motif protein 26
+Details;441;57;mmu-miR-132-3p;Slc6a3;solute carrier family 6 (neurotransmitter transporter, dopamine), member 3
+Details;442;57;mmu-miR-132-3p;Rc3h2;ring finger and CCCH-type zinc finger domains 2
+Details;443;57;mmu-miR-132-3p;Tnfsf4;tumor necrosis factor (ligand) superfamily, member 4
+Details;444;56;mmu-miR-132-3p;Clock;circadian locomotor output cycles kaput
+Details;445;56;mmu-miR-132-3p;Trpc5os;transient receptor potential cation channel, subfamily C, member 5, opposite strand
+Details;446;56;mmu-miR-132-3p;Fbrsl1;fibrosin-like 1
+Details;447;56;mmu-miR-132-3p;Pik3ip1;phosphoinositide-3-kinase interacting protein 1
+Details;448;56;mmu-miR-132-3p;Mrpl11;mitochondrial ribosomal protein L11
+Details;449;56;mmu-miR-132-3p;Prl8a9;prolactin family8, subfamily a, member 9
+Details;450;56;mmu-miR-132-3p;Cdh4;cadherin 4
+Details;451;56;mmu-miR-132-3p;Amot;angiomotin
+Details;452;56;mmu-miR-132-3p;Mapk8;mitogen-activated protein kinase 8
+Details;453;56;mmu-miR-132-3p;Acsl4;acyl-CoA synthetase long-chain family member 4
+Details;454;56;mmu-miR-132-3p;Rap2b;RAP2B, member of RAS oncogene family
+Details;455;56;mmu-miR-132-3p;Tshr;thyroid stimulating hormone receptor
+Details;456;56;mmu-miR-132-3p;Sep 10;septin 10
+Details;457;56;mmu-miR-132-3p;Slc16a10;solute carrier family 16 (monocarboxylic acid transporters), member 10
+Details;458;56;mmu-miR-132-3p;Cytl1;cytokine-like 1
+Details;459;56;mmu-miR-132-3p;Clec7a;C-type lectin domain family 7, member a
+Details;460;56;mmu-miR-132-3p;Rsl24d1;ribosomal L24 domain containing 1
+Details;461;56;mmu-miR-132-3p;Rb1;RB transcriptional corepressor 1
+Details;462;55;mmu-miR-132-3p;Ptpa;protein phosphatase 2 protein activator
+Details;463;55;mmu-miR-132-3p;Ppt1;palmitoyl-protein thioesterase 1
+Details;464;55;mmu-miR-132-3p;Actr6;ARP6 actin-related protein 6
+Details;465;55;mmu-miR-132-3p;Tsc22d3;TSC22 domain family, member 3
+Details;466;55;mmu-miR-132-3p;Inpp4b;inositol polyphosphate-4-phosphatase, type II
+Details;467;55;mmu-miR-132-3p;Ptpn21;protein tyrosine phosphatase, non-receptor type 21
+Details;468;55;mmu-miR-132-3p;Bdp1;B double prime 1, subunit of RNA polymerase III transcription initiation factor IIIB
+Details;469;55;mmu-miR-132-3p;Slc26a4;solute carrier family 26, member 4
+Details;470;55;mmu-miR-132-3p;Adgrf4;adhesion G protein-coupled receptor F4
+Details;471;54;mmu-miR-132-3p;Slit2;slit guidance ligand 2
+Details;472;54;mmu-miR-132-3p;Kxd1;KxDL motif containing 1
+Details;473;54;mmu-miR-132-3p;Srebf1;sterol regulatory element binding transcription factor 1
+Details;474;54;mmu-miR-132-3p;Mllt6;"myeloid/lymphoid or mixed-lineage leukemia; translocated to, 6"
+Details;475;54;mmu-miR-132-3p;Cbfa2t2;CBFA2/RUNX1 translocation partner 2
+Details;476;54;mmu-miR-132-3p;Nt5dc3;5'-nucleotidase domain containing 3
+Details;477;54;mmu-miR-132-3p;Tia1;cytotoxic granule-associated RNA binding protein 1
+Details;478;54;mmu-miR-132-3p;Aak1;AP2 associated kinase 1
+Details;479;54;mmu-miR-132-3p;Azin1;antizyme inhibitor 1
+Details;480;54;mmu-miR-132-3p;Kcnma1;potassium large conductance calcium-activated channel, subfamily M, alpha member 1
+Details;481;54;mmu-miR-132-3p;Mrpl36;mitochondrial ribosomal protein L36
+Details;482;54;mmu-miR-132-3p;Lhx9;LIM homeobox protein 9
+Details;483;54;mmu-miR-132-3p;Fmo5;flavin containing monooxygenase 5
+Details;484;54;mmu-miR-132-3p;Scn3a;sodium channel, voltage-gated, type III, alpha
+Details;485;54;mmu-miR-132-3p;Elovl2;elongation of very long chain fatty acids (FEN1/Elo2, SUR4/Elo3, yeast)-like 2
+Details;486;54;mmu-miR-132-3p;Cmtm8;CKLF-like MARVEL transmembrane domain containing 8
+Details;487;54;mmu-miR-132-3p;Rcor3;REST corepressor 3
+Details;488;53;mmu-miR-132-3p;Gria2;glutamate receptor, ionotropic, AMPA2 (alpha 2)
+Details;489;53;mmu-miR-132-3p;Gpatch8;G patch domain containing 8
+Details;490;53;mmu-miR-132-3p;Kat7;K(lysine) acetyltransferase 7
+Details;491;53;mmu-miR-132-3p;Pik3r4;phosphoinositide-3-kinase regulatory subunit 4
+Details;492;53;mmu-miR-132-3p;Polr1a;polymerase (RNA) I polypeptide A
+Details;493;53;mmu-miR-132-3p;Arid1a;AT rich interactive domain 1A (SWI-like)
+Details;494;53;mmu-miR-132-3p;Il11;interleukin 11
+Details;495;53;mmu-miR-132-3p;Smim13;small integral membrane protein 13
+Details;496;53;mmu-miR-132-3p;Amy2a4;amylase 2a4
+Details;497;53;mmu-miR-132-3p;Zc3h14;zinc finger CCCH type containing 14
+Details;498;53;mmu-miR-132-3p;Zfp950;zinc finger protein 950
+Details;499;53;mmu-miR-132-3p;Creb1;cAMP responsive element binding protein 1
+Details;500;53;mmu-miR-132-3p;Zbtb18;zinc finger and BTB domain containing 18
+Details;501;53;mmu-miR-132-3p;Amy2a3;amylase 2a3
+Details;502;53;mmu-miR-132-3p;Steap2;six transmembrane epithelial antigen of prostate 2
+Details;503;53;mmu-miR-132-3p;Grk3;G protein-coupled receptor kinase 3
+Details;504;53;mmu-miR-132-3p;Amy2a2;amylase 2a2
+Details;505;53;mmu-miR-132-3p;Mthfd2;methylenetetrahydrofolate dehydrogenase (NAD+ dependent), methenyltetrahydrofolate cyclohydrolase
+Details;506;53;mmu-miR-132-3p;C530008M17Rik;RIKEN cDNA C530008M17 gene
+Details;507;53;mmu-miR-132-3p;Dnajc27;DnaJ heat shock protein family (Hsp40) member C27
+Details;508;53;mmu-miR-132-3p;2310057M21Rik;RIKEN cDNA 2310057M21 gene
+Details;509;53;mmu-miR-132-3p;Bzw1;basic leucine zipper and W2 domains 1
+Details;510;52;mmu-miR-132-3p;Ctbs;chitobiase
+Details;511;52;mmu-miR-132-3p;Cspp1;centrosome and spindle pole associated protein 1
+Details;512;52;mmu-miR-132-3p;Mindy3;MINDY lysine 48 deubiquitinase 3
+Details;513;52;mmu-miR-132-3p;Grm4;glutamate receptor, metabotropic 4
+Details;514;52;mmu-miR-132-3p;Med22;mediator complex subunit 22
+Details;515;52;mmu-miR-132-3p;Phf11d;PHD finger protein 11D
+Details;516;52;mmu-miR-132-3p;Tcf7l1;transcription factor 7 like 1 (T cell specific, HMG box)
+Details;517;52;mmu-miR-132-3p;Liph;lipase, member H
+Details;518;52;mmu-miR-132-3p;Cyp3a13;cytochrome P450, family 3, subfamily a, polypeptide 13
+Details;519;52;mmu-miR-132-3p;Homer2;homer scaffolding protein 2
+Details;520;52;mmu-miR-132-3p;Col5a2;collagen, type V, alpha 2
+Details;521;52;mmu-miR-132-3p;Mtx3;metaxin 3
+Details;522;52;mmu-miR-132-3p;Glis3;GLIS family zinc finger 3
+Details;523;52;mmu-miR-132-3p;Gpc3;glypican 3
+Details;524;52;mmu-miR-132-3p;Cdhr1;cadherin-related family member 1
+Details;525;52;mmu-miR-132-3p;Zfc3h1;zinc finger, C3H1-type containing
+Details;526;52;mmu-miR-132-3p;Btg2;B cell translocation gene 2, anti-proliferative
+Details;527;52;mmu-miR-132-3p;Pign;phosphatidylinositol glycan anchor biosynthesis, class N
+Details;528;52;mmu-miR-132-3p;Zbtb24;zinc finger and BTB domain containing 24
+Details;529;52;mmu-miR-132-3p;Stk35;serine/threonine kinase 35
+Details;530;52;mmu-miR-132-3p;Dync1li2;dynein, cytoplasmic 1 light intermediate chain 2
+Details;531;52;mmu-miR-132-3p;Ccng2;cyclin G2
+Details;532;52;mmu-miR-132-3p;Srpk2;serine/arginine-rich protein specific kinase 2
+Details;533;52;mmu-miR-132-3p;Ywhag;tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, gamma polypeptide
+Details;534;52;mmu-miR-132-3p;Hhip;Hedgehog-interacting protein
+Details;535;52;mmu-miR-132-3p;Arhgef10;Rho guanine nucleotide exchange factor (GEF) 10
+Details;536;51;mmu-miR-132-3p;Ikzf2;IKAROS family zinc finger 2
+Details;537;51;mmu-miR-132-3p;Zdhhc7;zinc finger, DHHC domain containing 7
+Details;538;51;mmu-miR-132-3p;Mdm4;transformed mouse 3T3 cell double minute 4
+Details;539;51;mmu-miR-132-3p;Rnls;renalase, FAD-dependent amine oxidase
+Details;540;51;mmu-miR-132-3p;Ubr3;ubiquitin protein ligase E3 component n-recognin 3
+Details;541;51;mmu-miR-132-3p;Ephb2;Eph receptor B2
+Details;542;51;mmu-miR-132-3p;Manea;mannosidase, endo-alpha
+Details;543;51;mmu-miR-132-3p;Mapkbp1;mitogen-activated protein kinase binding protein 1
+Details;544;51;mmu-miR-132-3p;Hspb7;heat shock protein family, member 7 (cardiovascular)
+Details;545;51;mmu-miR-132-3p;Vapb;vesicle-associated membrane protein, associated protein B and C
+Details;546;51;mmu-miR-132-3p;Asb3;ankyrin repeat and SOCS box-containing 3
+Details;547;51;mmu-miR-132-3p;Star;steroidogenic acute regulatory protein
+Details;548;51;mmu-miR-132-3p;Kif21a;kinesin family member 21A
+Details;549;51;mmu-miR-132-3p;Cers2;ceramide synthase 2
+Details;550;51;mmu-miR-132-3p;Tdrd7;tudor domain containing 7
+Details;551;51;mmu-miR-132-3p;Nab1;Ngfi-A binding protein 1
+Details;552;51;mmu-miR-132-3p;Rnf19a;ring finger protein 19A
+Details;553;51;mmu-miR-132-3p;Kif2a;kinesin family member 2A
+Details;554;51;mmu-miR-132-3p;Asxl1;additional sex combs like 1
+Details;555;50;mmu-miR-132-3p;Ric3;RIC3 acetylcholine receptor chaperone
+Details;556;50;mmu-miR-132-3p;Rab11a;RAB11A, member RAS oncogene family
+Details;557;50;mmu-miR-132-3p;Cfl2;cofilin 2, muscle
+Details;558;50;mmu-miR-132-3p;Zscan21;zinc finger and SCAN domain containing 21
+Details;559;50;mmu-miR-132-3p;Ssc4d;scavenger receptor cysteine rich family, 4 domains
+Details;560;50;mmu-miR-132-3p;Ppfia1;protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 1
+Details;561;50;mmu-miR-132-3p;Pyurf;Pigy upstream reading frame
+Details;562;50;mmu-miR-132-3p;Isl1;ISL1 transcription factor, LIM/homeodomain
+Details;563;50;mmu-miR-132-3p;Nol6;nucleolar protein family 6 (RNA-associated)
+Details;564;50;mmu-miR-132-3p;Vps54;VPS54 GARP complex subunit
+Details;565;50;mmu-miR-132-3p;Ccng1;cyclin G1
+Details;566;50;mmu-miR-132-3p;Eif5b;eukaryotic translation initiation factor 5B
+Details;567;50;mmu-miR-132-3p;E130311K13Rik;RIKEN cDNA E130311K13 gene
+Details;568;50;mmu-miR-132-3p;Zc3h8;zinc finger CCCH type containing 8
+Details;569;50;mmu-miR-132-3p;Ado;2-aminoethanethiol (cysteamine) dioxygenase
+Details;570;50;mmu-miR-132-3p;Tmem167;transmembrane protein 167
+Details;571;50;mmu-miR-132-3p;Hao1;hydroxyacid oxidase 1, liver
+Details;572;50;mmu-miR-132-3p;Cks1brt;CDC28 protein kinase 1b, retrogene
+Details;573;50;mmu-miR-132-3p;Zfp280d;zinc finger protein 280D
